@@ -1,0 +1,47 @@
+url: "https://wilfriedwoivre.github.io"
+baseurl: 
+lang: fr
+title: Wilfried Woivré & Azure
+description: TBD
+tagline: Azure, Cloud, Service Fabric, Serverless
+keywords: [Azure, Cloud, Service Fabric, Container, Serverless]
+logo: 
+author:
+  name: Wilfried Woivré
+  email: wilfried@woivre.fr
+  github: wilfriedwoivre
+  twitter: wilfriedwoivre
+  rss: https://wilfriedwoivre.github.io/feed.xml
+copyright: © 2018. All rights reserved.
+permalink: pretty
+pagination: 5
+paginate_path: /page-:num/
+
+collections:
+  featured_categories:
+    permalink:         /category/:name/
+    output:            true
+
+  featured_tags:
+    permalink:         /tag/:name/
+    output:            true
+
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+
+plugins:
+  - jekyll-avatar
+  - jekyll-default-layout
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-titles-from-headings
