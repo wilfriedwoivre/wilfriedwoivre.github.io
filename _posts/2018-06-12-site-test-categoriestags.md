@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Wilfried Woivré - Article test "
-date: 2018-06-11
+title: "Wilfried Woivré - Article test Catégories et tags"
+date: 2018-06-12
 categories: [Azure, Migration]
 tags: [Test, Migration]
 ---

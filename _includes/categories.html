@@ -1,0 +1,11 @@
+<div class="sidebar-part">
+    <p class="altcol-title">Cat&eacute;gories</p>
+
+    <ul class="categories">
+        {% assign sorted_categories = site.categories | sort %} {% for category in sorted_categories %}
+        <li>
+            <a href="{{ site.url }}/category/{{ category | first | url_encode }}/index.html">{{ category | first }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

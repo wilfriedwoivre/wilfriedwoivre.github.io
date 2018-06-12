@@ -1,47 +1,30 @@
-url: "https://wilfriedwoivre.github.io"
-baseurl: 
-lang: fr
-title: Wilfried Woivré & Azure
-description: TBD
-tagline: Azure, Cloud, Service Fabric, Serverless
-keywords: [Azure, Cloud, Service Fabric, Container, Serverless]
-logo: 
-author:
-  name: Wilfried Woivré
-  email: wilfried@woivre.fr
-  github: wilfriedwoivre
-  twitter: wilfriedwoivre
-  rss: https://wilfriedwoivre.github.io/feed.xml
-copyright: © 2018. All rights reserved.
-permalink: pretty
-pagination: 5
-paginate_path: /page-:num/
+name: Wilfried Woivré & Azure
+description: Azure, Cloud, Service Fabric, Serverless, Container
 
-collections:
-  featured_categories:
-    permalink:         /category/:name/
-    output:            true
+url : "https://wilfriedwoivre.github.io"
 
-  featured_tags:
-    permalink:         /tag/:name/
-    output:            true
+baseurl: ""
 
-exclude:
-  - vendor
-  - Gemfile
-  - Gemfile.lock
+github: "wilfridwoivre/wilfriedwoivre.github.io"
+gitlab : ''
 
-plugins:
-  - jekyll-avatar
-  - jekyll-default-layout
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-optional-front-matter
+gaacount: ''
+
+comments: false
+
+isso: ''
+disqs: ''
+
+permalink: '/:year/:month/:title'
+category_layout: categories.html
+
+paginate: 5
+
+highlighter: rouge
+markdown: kramdown
+plugins: 
   - jekyll-paginate
-  - jekyll-readme-index
-  - jekyll-redirect-from
-  - jekyll-relative-links
-  - jekyll-remote-theme
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-titles-from-headings
+  - jekyll-category-pages
+  - jekyll-feed
+
+exclude: ['README.md', 'LICENSE']

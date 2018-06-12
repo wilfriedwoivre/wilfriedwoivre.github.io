@@ -1,40 +1,14 @@
-<!DOCTYPE html>
-<html>
+{% include header.html %}
 
-<head>
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
-</head>
-
-<body>
-    <nav>
-        <ul>
-            <li>
-                <a href="/">Home</a>
-            </li>
-            <li>
-                <a href="/blog">Blog</a>
-            </li>
-            <li>
-                <a href="/about">About</a>
-            </li>
-        </ul>
-    </nav>
-    <div class="container">
-
-        {{ content }}
-
+<div class="container container-left">
+    <div class="row">
+        <div class="col-md-3 hidden-xs">
+            {% include sidebar.html %}
+        </div>
+        <div class="col-md-9">
+            {{ content }}
+        </div>
     </div>
-    <footer>
-        <ul>
-            <li>
-                <a href="mailto:wilfried@woivre.fr.">email</a>
-            </li>
-            <li>
-                <a href="https://github.com/wilfriedwoivre">github.com/wilfriedwoivre</a>
-            </li>
-        </ul>
-    </footer>
-</body>
+</div>
 
-</html>
+{% include footer.html %}

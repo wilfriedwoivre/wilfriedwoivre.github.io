@@ -1,0 +1,11 @@
+<div class="sidebar-part">
+    <p class="altcol-title">Articles r&eacute;cents</h1>
+
+        <ul class="recentposts">
+            {% for post in site.posts limit:5 %}
+            <li>
+                <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+</div>

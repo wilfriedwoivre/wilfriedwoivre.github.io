@@ -1,0 +1,55 @@
+.sidebar-list {
+    font-size: 85%;
+    line-height: 1.4;
+}
+
+.altcol-title {
+    margin: 15px 0 10px;
+    padding: 5px;
+    border-bottom: 1px solid #0078b6;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #0078b6;
+}
+
+.categories {
+    padding-left: 10px;
+}
+
+.categories li {
+    display: block;
+    line-height: 1.7;
+    background: url(http://images.woivre.fr/site/cat.jpg) left top no-repeat;
+}
+
+.categories li a {
+    color: Black;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.recentposts {
+    padding-left: 10px;
+}
+
+.recentposts li {
+    display: block;
+}
+
+.recentposts li a {
+    color: black;
+    text-decoration: none;
+}
+
+.blogroll {
+    padding-left: 10px;
+}
+
+.blogroll li {
+    display: block;
+}
+
+.blogroll li a {
+    color: black;
+    text-decoration: none;
+}
