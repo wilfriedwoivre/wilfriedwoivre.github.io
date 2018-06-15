@@ -1,3 +1,7 @@
+---
+permalink: /blog/
+---
+
 {% include header.html %}
 
 <div class="container container-left">
@@ -6,42 +10,58 @@
             {% include sidebar.html %}
         </div>
         <div class="col-md-9">
-          <div class="article">
             <div class="well">
-                <h1><a href="{{ site.baseurl}}{{ page.url }}">{{ page.date | date: "%b %-d, %Y" }} - {{ page.title }}</a></h1>
-            {% if site.comments and page.comments %}
-                {% if site.disqus != '' %}
-                <p class="author"><a href="#disqus_thread" data-disqus-identifier="{{ page.url | slugify }}">Comments</a></p>
-                {% elsif site.isso != '' %}
-                <p class="author"><a href="{{ site.baseurl }}{{ page.url }}{{ site.isso_suffix }}#isso-thread">Comments</a></p>
+                <article>
+                    <p class="date">
+                        {% assign monthIndex = page.date | date: '%m' | minus: 1 %} {{ site.data.fr.shortmonths[monthIndex] }}
+                        <span>{{ page.date | date: '%d' }}</span>
+                    </p>
+                    <h1>
+                        <a href="{{ site.url}}{{ page.url }}">{{ page.title }}</a>
+                    </h1>
+                    <div class="postInfo">
+                        <div class="cat">
+                            <strong>Cat&eacute;gories :</strong>
+                            {% assign last_category = page.categories | last %} {% for category in page.categories %} {% assign isLast = false %}
+                            <a href="{{ site.url }}/categories.html#{{ category | url_encode }}">{{ category }}</a>{% unless category == last_category %}, {% endunless %} {% endfor %}
+                        </div>
+                    </div>
+                    {% if site.comments and page.comments %} {% if site.disqus != '' %}
+                    <p class="author">
+                        <a href="#disqus_thread" data-disqus-identifier="{{ page.url | slugify }}">Comments</a>
+                    </p>
+                    {% elsif site.isso != '' %}
+                    <p class="author">
+                        <a href="{{ site.url }}{{ page.url }}{{ site.isso_suffix }}#isso-thread">Comments</a>
+                    </p>
+                    {% endif %} {% endif %}
+                    <div class="post-content">
+                        {{ content }}
+                    </div>
+                    {% if page.comments %} {% if site.disqus != '' %}
+                    <div id="disqus_thread">
+                        <noscript>Please enable JavaScript to view the
+                            <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+                        </noscript>
+                        <a href="http://disqus.com" class="dsq-brlink">comments powered by
+                            <span class="logo-disqus">Disqus</span>
+                        </a>
+                    </div>
+                    {% elsif site.isso != '' %}
+                    <section id="isso-thread"></section>
+                    {% endif %} {% endif %}
+                </article>
+            </div>
+
+            <div class="pagination">
+                {% if page.next %}
+                <a class="btn btn-default" href="{{ site.url}}{{ page.next.url }}" class="next">Quoi de neuf ? </a>
+                {% endif %} {% if page.previous %}
+                <a class="btn btn-default" href="{{ site.url}}{{ page.previous.url }}" class="previous">Et avant ?</a>
                 {% endif %}
-            {% endif %}
-            <div class="post-content">
-            {{ content }}
             </div>
-            {% if page.comments %}
-                {% if site.disqus != '' %}
-            <div id="disqus_thread">
-                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-            </div>
-                {% elsif site.isso != '' %}
-                <section id="isso-thread"></section>
-                {% endif %}
-            {% endif %}
-            </div>
-          </div>
-          <div class="pagination">
-              {% if page.next %}
-                <a class="btn btn-default" href="{{ site.baseurl}}{{ page.next.url }}" class="next">Newer Post</a>
-              {% endif %}
-              {% if page.previous %}
-                <a class="btn btn-default" href="{{ site.baseurl}}{{ page.previous.url }}" class="previous">Older Post</a>
-              {% endif %}
-          </div>
         </div>
     </div>
 </div>
 
-{% include disqus-comments.html %}
-{% include footer.html %}
+{% include disqus-comments.html %} {% include footer.html %}

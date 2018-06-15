@@ -17,7 +17,6 @@ gem "jekyll"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-paginate"
-  gem "jekyll-category-pages"
   gem "jekyll-feed"
 end
 

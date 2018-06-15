@@ -1,11 +1,12 @@
+author: Wilfried Woivré
 name: Wilfried Woivré & Azure
-description: Azure, Cloud, Service Fabric, Serverless, Container
+description: Azure, Cloud, Service Fabric, Serverless, Container, ...
 
 url : "https://wilfriedwoivre.github.io"
 
 baseurl: ""
 
-github: "wilfridwoivre/wilfriedwoivre.github.io"
+github: "wilfriedwoivre"
 gitlab : ''
 
 gaacount: ''
@@ -16,15 +17,20 @@ isso: ''
 disqs: ''
 
 permalink: '/:year/:month/:title'
-category_layout: categories.html
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: posts
+    values:
+      permalink: '/blog/:year/:month/:title'
 
 paginate: 5
 
-highlighter: rouge
 markdown: kramdown
 plugins: 
   - jekyll-paginate
-  - jekyll-category-pages
   - jekyll-feed
 
 exclude: ['README.md', 'LICENSE']

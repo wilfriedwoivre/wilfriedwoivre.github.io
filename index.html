@@ -4,33 +4,53 @@ title: Wilfried Woivré & Azure - Blog
 ---
 
 {% for post in paginator.posts %}
-<div class="article">
-    <div class="well">
-        <h1><a href="{{ site.baseurl}}{{ post.url }}">{{ post.date | date: "%b %-d, %Y" }} - {{ post.title }}</a></h1>
+<div class="well">
+    <article>
+        <p class="date">
+                {% assign monthIndex = post.date | date: '%m' | minus: 1 %}
+                {{ site.data.fr.shortmonths[monthIndex] }}
+            <span>{{ post.date | date: '%d' }}</span>
+        </p>   
+        <h1>
+            <a href="{{ site.url}}{{ post.url }}">{{ post.title }}</a>
+        </h1>
+        <div class="postInfo">
+                <div class="cat">
+                    <strong>Cat&eacute;gories :</strong> 
+                    {% assign last_category = post.categories | last %}
+                    {% for category in post.categories %}
+                        {% assign isLast = false %}
+                        <a href="{{ site.url }}/categories.html#{{ category | url_encode }}">{{ category }}</a>{% unless category == last_category %}, {% endunless %}
+                    {% endfor %}
+                </div>
+        </div>
+       
+
         {% if site.comments and post.comments %}
             {% if site.disqus != '' %}
-            <p class="author"><a href="{{ site.baseurl }}{{ post.url }}/#disqus_thread" data-disqus-identifier="{{ post.url | slugify }}">Comments</a></p>
+            <p class="author"><a href="{{ site.url }}{{ post.url }}/#disqus_thread" data-disqus-identifier="{{ post.url | slugify }}">Comments</a></p>
             {% elsif site.isso != '' %}
-            <p class="author"><a href="{{ site.baseurl }}{{ post.url }}{{ site.isso_suffix }}#isso-thread">Comments</a></p>
+            <p class="author"><a href="{{ site.url }}{{ post.url }}{{ site.isso_suffix }}#isso-thread">Comments</a></p>
             {% endif %}
         {% endif %}
         <div class="content">
             {{ post.content }}
         </div>
-    </div>
+    </article>
 </div>
+
 {% endfor %}
 
 <div class="pagination">
   {% if paginator.previous_page %}
       {% if paginator.previous_page == 1 %}
-        <a class="btn btn-default" href="{{ site.baseurl}}/index.html" class="previous">Newer</a>
+        <a class="btn btn-default" href="{{ site.url}}/index.html" class="previous">Quoi de neuf ?</a>
       {% else %}
-        <a class="btn btn-default" href="{{ site.baseurl}}/page{{ paginator.previous_page }}" class="previous">Newer</a>
+        <a class="btn btn-default" href="{{ site.url}}/page{{ paginator.previous_page }}" class="previous">Quoi de neuf ?</a>
       {% endif %}
   {% endif %}
   <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
-    <a class="btn btn-default" href="{{ site.baseurl}}/page{{ paginator.next_page }}" class="next">Older</a>
+    <a class="btn btn-default" href="{{ site.url}}/page{{ paginator.next_page }}" class="next">Et avant ?</a>
   {% endif %}
 </div>
