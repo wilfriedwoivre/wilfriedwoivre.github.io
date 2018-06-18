@@ -10,10 +10,10 @@
     <meta name="description" content="Blog personnel de Wilfried Woivr&eacute; parlant des sujets {{ site.description }}" />
     <meta name="Author" content="Wilfried Woivré">
     <meta name="Content-Language" content="fr">
-    <meta name="og:title" content="{% if page.layout == 'post' %} {{ site.name }} | {{ page.title }} {% else %} {{ site.name }} | {{ page.title }}  {% endif %}" />
-    <meta name="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}" />
-    <meta name="og:url" content="{{ site.url }}{{ page.url }}" />
-    <meta name="og:image" content="{{ site.url }}/assets/me.png" />
+    <meta property="og:title" content="{% if page.layout == 'post' %} {{ site.name }} | {{ page.title }} {% else %} {{ site.name }} | {{ page.title }}  {% endif %}" />
+    <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:image" content="{{ site.url }}/assets/me.png" />
     <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
     <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
     <link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet" type="text/css">
