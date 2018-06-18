@@ -77,7 +77,7 @@ Les paramètres sont les suivants :
 
 Une fois que vous aurez validé les différents droits via cette url, vous pourrez voir votre application dans le portail Azure, dans la blade Azure Active Directory > Enterprise applications, comme on peut le voir ci dessous :
 
-[![image]({{ site.url }}/images/2018/04/24/sandbox-azure-provisionnement-des-utilisateurs-img1.png "image")](http://images.woivre.fr/wwoivre/4/24/29f6f460642c4aa0b738fc56ad10bafd/image.png)
+[![image]({{ site.url }}/images/2018/04/24/sandbox-azure-provisionnement-des-utilisateurs-img1.png "image")]({{ site.url }}/images/2018/04/24/sandbox-azure-provisionnement-des-utilisateurs-img1.png)
 
 Une fois que votre application est créée, configurée, et approuvée, on peut passer au code applicatif afin de créer notre utilisateur.
 

@@ -89,7 +89,7 @@ Il est bien entendu possible de faire tout cela en ARM (car après tout qui dép
 
   
 
-[![image]({{ site.url }}/images/2018/01/23/bonne-resolution-prendre-soin-de-son-cluster-service-fabric-img2.png "image")](http://images.woivre.fr/wwoivre/2018/best-practices-service-fabric/portal-2.PNG)
+[![image]({{ site.url }}/images/2018/01/23/bonne-resolution-prendre-soin-de-son-cluster-service-fabric-img2.png "image")]({{ site.url }}/images/2018/01/23/bonne-resolution-prendre-soin-de-son-cluster-service-fabric-img2.png)
 
 Si vous creusez un peu plus le cluster, vous pourrez voir que les applications systèmes sont toutes dans le scale set “sysnode” à l’exception du DnsService qui est présent sur tous les nœuds.
 

@@ -210,6 +210,6 @@ Le XML que l’on récupère en entrée, ressemble à celui ci-dessous, il est d
 
 On va donc se retrouver avec une entité comprenant toutes les propriétés de notre table, comme on peut le voir ci-dessous :
 
-[![image_thumb4]({{ site.url }}/images/2012/09/11/utilisation-avancee-de-windows-azure-table-storage-img1.png "image_thumb4")](http://images.woivre.fr/wwoivre/windows-live-writer/utilisation-avance-de-windows-azure-tabl_ad6e/image_thumb4_2.png)
+[![image_thumb4]({{ site.url }}/images/2012/09/11/utilisation-avancee-de-windows-azure-table-storage-img1.png "image_thumb4")]({{ site.url }}/images/2012/09/11/utilisation-avancee-de-windows-azure-table-storage-img1.png)
 
 Voilà en espérant que ça puisse vous donner quelques idées pour vos développements futurs ou passés !
