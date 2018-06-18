@@ -4,12 +4,9 @@ permalink: /blog/
 
 {% include header.html %}
 
-<div class="container container-left">
+<div class="container-fluid body-content">
     <div class="row">
-        <div class="col-md-3 hidden-xs">
-            {% include sidebar.html %}
-        </div>
-        <div class="col-md-9">
+        <div class="col-md-12 col-offset-250">
             <div class="well">
                 <article>
                     <p class="date">
@@ -60,6 +57,9 @@ permalink: /blog/
                 <a class="btn btn-default" href="{{ site.url}}{{ page.previous.url }}" class="previous">Et avant ?</a>
                 {% endif %}
             </div>
+        </div>
+        <div class="col-fixed-220 hidden-xs">
+            {% include sidebar.html %}
         </div>
     </div>
 </div>
