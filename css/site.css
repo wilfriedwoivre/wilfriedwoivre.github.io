@@ -185,3 +185,7 @@ img {
     height: auto;
     display: block;
 }
+
+.pagination {
+    margin-bottom: 40px;
+}

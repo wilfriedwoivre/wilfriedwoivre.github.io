@@ -1,7 +1,6 @@
 <div class="container-fluid">
     <div class="row-fluid">
         <div class="span12 footer navbar-inverse navbar-fixed-bottom">
-
             {% assign monthIndex = site.time | date: '%m' | minus: 1 %}
                 
             <p class="copyright">&copy;  {{ site.author }}, tous droits r&eacute;serv&eacute;s {{ site.data.fr.months[monthIndex] }} {{ site.time | date: '%Y' }} </p>
