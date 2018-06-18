@@ -5,7 +5,7 @@ date: 2018-04-24
 categories: [ "Azure", "Azure Active Directory" ]
 ---
 
-Dans le cadre de la sandbox Azure que je vous ai introduit dans un de mes précédents articles : [http://blog.woivre.fr/blog/2018/3/sandbox-azure-contexte-et-configuration-azure-active-directory](http://blog.woivre.fr/blog/2018/3/sandbox-azure-contexte-et-configuration-azure-active-directory "http://blog.woivre.fr/blog/2018/3/sandbox-azure-contexte-et-configuration-azure-active-directory")
+Dans le cadre de la sandbox Azure que je vous ai introduit dans un de mes précédents articles : [http://blog.woivre.fr/blog/2018/03/sandbox-azure-contexte-et-configuration-azure-active-directory](http://blog.woivre.fr/blog/2018/03/sandbox-azure-contexte-et-configuration-azure-active-directory "http://blog.woivre.fr/blog/2018/03/sandbox-azure-contexte-et-configuration-azure-active-directory")
 
   
 

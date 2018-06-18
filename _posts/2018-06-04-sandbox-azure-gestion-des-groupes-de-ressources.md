@@ -7,8 +7,8 @@ categories: [ "Azure", "Function" ]
 
 Dans le cadre de la sandbox Azure dont je vous ai parlé dans les articles précédents:
 
-*   Introduction : [http://blog.woivre.fr/blog/2018/3/sandbox-azure-contexte-et-configuration-azure-active-directory](http://blog.woivre.fr/blog/2018/3/sandbox-azure-contexte-et-configuration-azure-active-directory "http://blog.woivre.fr/blog/2018/3/sandbox-azure-contexte-et-configuration-azure-active-directory")
-*   Provisionnement des utilisateurs : [http://blog.woivre.fr/blog/2018/4/sandbox-azure-provisionnement-des-utilisateurs](http://blog.woivre.fr/blog/2018/4/sandbox-azure-provisionnement-des-utilisateurs "http://blog.woivre.fr/blog/2018/4/sandbox-azure-provisionnement-des-utilisateurs")
+*   Introduction : [http://blog.woivre.fr/blog/2018/03/sandbox-azure-contexte-et-configuration-azure-active-directory](http://blog.woivre.fr/blog/2018/03/sandbox-azure-contexte-et-configuration-azure-active-directory "http://blog.woivre.fr/blog/2018/03/sandbox-azure-contexte-et-configuration-azure-active-directory")
+*   Provisionnement des utilisateurs : [http://blog.woivre.fr/blog/2018/04/sandbox-azure-provisionnement-des-utilisateurs](http://blog.woivre.fr/blog/2018/04/sandbox-azure-provisionnement-des-utilisateurs "http://blog.woivre.fr/blog/2018/04/sandbox-azure-provisionnement-des-utilisateurs")
 
 On va maintenant parler de la création des Resource Groups, je vais là aussi utiliser une API qui réalisera les étapes suivantes :
 
