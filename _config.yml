@@ -38,5 +38,6 @@ kramdown:
 plugins: 
   - jekyll-paginate
   - jekyll-feed
+  - jekyll-sitemap
 
-exclude: ['README.md', 'LICENSE']
+exclude: ['utils', 'README.md', 'LICENSE']
