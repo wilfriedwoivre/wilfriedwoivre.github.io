@@ -14,7 +14,7 @@ Lorsque vous créez des clusters Service Fabric il est possible de mettre en pla
 
   
 
-A partir du moment où vous avez créer plusieurs nodes types, il est fortement conseillé de mieux maitriser le déploiement de vos applications sur votre cluster afin qu’elles ne soient pas déployées n’importe où.
+A partir du moment où vous avez créé plusieurs nodes types, il est fortement conseillé de mieux maitriser le déploiement de vos applications sur votre cluster afin qu’elles ne soient pas déployées n’importe où.
 
 Prenons par exemple, un exemple de cluster respectant cette configuration suivante :
 
