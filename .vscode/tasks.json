@@ -4,16 +4,17 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Build blog", 
+            "label": "Build blog",
             "type": "shell",
             "identifier": "build",
-            "command": "jekyll build",
+            "command": "jekyll build"
         },
         {
             "label": "Run local blog",
             "type": "shell",
             "dependsOn": "build",
-            "command": "jekyll serve --future"
+            "command": "jekyll serve --future",
+            "problemMatcher": []
         },
         {
             "label": "Create new article",
@@ -31,9 +32,16 @@
             },
             "command": "",
             "args": [
-                 { "value": "$title = Read-Host 'Enter blog post title';", "quoting": "weak"},
-                 { "value": ".\\utils\\create-new-blogpost.ps1 $title", "quoting": "weak"}
-            ]
+                {
+                    "value": "$title = Read-Host 'Enter blog post title';",
+                    "quoting": "weak"
+                },
+                {
+                    "value": ".\\utils\\create-new-blogpost.ps1 $title",
+                    "quoting": "weak"
+                }
+            ],
+            "problemMatcher": []
         }
     ]
 }
