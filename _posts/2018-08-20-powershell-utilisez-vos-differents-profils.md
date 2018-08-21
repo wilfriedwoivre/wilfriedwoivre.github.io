@@ -5,7 +5,7 @@ date: 2018-08-20
 categories: [ "Powershell" ]
 ---
 
-En cette période de vacances, il est grand temps de faire le plein d'astuces. Pour ceux qui font du scripting pour interargir avec Azure ou autre, vous savez qu'il est très souvent utile d'avoir des scripts réutilisables, et si possible toujours à porter de main. 
+En cette période de vacances, il est grand temps de faire le plein d'astuces. Pour ceux qui font du scripting pour interargir avec Azure ou autre, vous savez qu'il est très souvent utile d'avoir des scripts réutilisables, et si possible toujours à porteé de main. 
 
 Si je prends mon cas, j'ai par exemple souvent besoin de me connecter à Azure sur une souscription spécifique, de configurer mon proxy, ou de créer des Resources Groups temporaires, ou bien alors de faire le grand ménage dans mes images Docker locales. 
 
