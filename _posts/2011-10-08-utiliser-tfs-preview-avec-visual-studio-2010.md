@@ -2,7 +2,7 @@
 layout: post
 title: Utiliser TFS Preview avec Visual Studio 2010
 date: 2011-10-08
-categories: [ "Azure", "Visual Studio Team Services" ]
+categories: [ "Azure", "Azure DevOps" ]
 ---
 
 Si vous avez la chance d’avoir accès à TFS Preview sur Azure, vous avez sûrement du vouloir l’essayer avec autre chose que Visual Studio 11 Developer Preview, par exemple Visual Studio 2010.

@@ -2,7 +2,7 @@
 layout: post
 title: Intégration continue sur Windows Azure grâce à TFS Preview
 date: 2012-06-20
-categories: [ "Azure", "Visual Studio Team Services" ]
+categories: [ "Azure", "Azure DevOps" ]
 ---
 
 Depuis l’arrivée du nouveau portail Windows Azure qui se trouve toujours à cette url : [https://manage.windowsazure.com](https://manage.windowsazure.com) il est possible de mettre simplement un système d’intégration continue pour héberger votre application sur Windows Azure, que ce soit un service hébergé, ou un Site Web. Il est possible  d’intégrer le système d’intégration continue soit avec TFS Preview, Git ou alors via FTP, dans notre cas, nous allons utiliser TFS Preview, puisque la solution de mon blog est dessus, et autant se servir d’un cas pratique !
