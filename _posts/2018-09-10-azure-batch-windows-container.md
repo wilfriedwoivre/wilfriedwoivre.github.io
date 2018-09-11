@@ -114,7 +114,7 @@ az acr build --registry <azureregistryname> --file .\DockerFile --image <appname
 Le fonctionnement d'Azure Batch s'articule autour de 3 notions : 
  
 * Pool : Ensemble de serveur qui seront utilisés. Un compte Azure Batch peut contenir plusieurs types de pool 
-* Job : Elément logique qui permet de regouper nos différentes tâches
+* Job : Elément logique qui permet de regrouper nos différentes tâches
 * Task : Exécution de nos tâches de calcul, ici il s'agira de l'exécution de notre container
 
 Commençons donc par créer notre pool pour nos tests, il est possible de faire ceci via le portail Azure, ou via du code comme ci-dessous :
