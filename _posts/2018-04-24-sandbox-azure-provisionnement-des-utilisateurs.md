@@ -105,11 +105,13 @@ Le code est assez simple, bien qu’il diffère de ce qu’on pouvait utiliser a
 
 Créons maintenant notre objet pour appeler la Graph API de Microsoft :
 
+```csharp
 return  new GraphServiceClient(new DelegateAuthenticationProvider(  
  async (request) =>  
     {  
 request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", await helper.GetTokenAsync());  
     }));
+```
 
 On lui passe ainsi la méthode pour qu’il puisse gérer son token, et faire ainsi les appels qu’il a besoin en cas d’expiration de celui-ci.
 
