@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: Connectez vous à vos comptes de Stockage grâce à via Azure Active Directory
+title: Connectez vous à vos comptes de Stockage via Azure Active Directory
 date: 2018-09-25
 categories: [ "Storage", "Azure Active Directory" ]
 ---
