@@ -1,9 +1,9 @@
 <div class="share-post">
     Partager sur &rarr;
-    <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ post.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Partager sur Twitter">
+    <a href="https://twitter.com/intent/tweet?text={{ post.title }}&url={{ site.url }}{{ post.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Partager sur Twitter">
         <img src="{{ site.url }}/assets/twitter.png" alt="Twitter"/>
     </a>
-    <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ post.url }}&title={{ page.title }}&summary={% if page.layout == 'post' %} {{ page.content | strip_html | xml_escape
+    <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ post.url }}&title={{ post.title }}&summary={% if page.layout == 'post' %} {{ page.content | strip_html | xml_escape
         | truncate: 500 }} {% else %} {{ site.name }} | {{ site.description }}  {% endif %}&source" rel="nofollow" target="_blank" title="Partager sur LinkedIn">
         <img src="{{ site.url }}/assets/linkedin.png" alt="LinkedIn"/>
     </a>
