@@ -2,7 +2,7 @@
 layout: post
 title: Générer des clés SAS pour vos storage grâce à KeyVault
 date: 2018-09-21
-categories: [ "KeyVault", "Storage" ]
+categories: [ "Azure", "KeyVault", "Storage" ]
 ---
 
 En entreprise, la sécurité c'est le nerf de la guerre. Il n'est pas envisagable de concevoir une application sans aucune notion de sécurité, que cette application soit hébergée on-premise ou dans le Cloud (Azure de préférence).

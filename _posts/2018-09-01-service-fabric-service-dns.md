@@ -2,7 +2,7 @@
 layout: post
 title: Service Fabric - Service DNS
 date: 2018-09-01
-categories: [ "Service Fabric" ]
+categories: [ "Azure", "Service Fabric" ]
 ---
 
 Il existe plusieurs modèles de programmation sur Service Fabric qui sont les suivants : 
