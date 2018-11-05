@@ -23,7 +23,7 @@ Commençons donc par se connecter sur le SQL Server contenant la base de donnée
 Créons notre compte de la manière suivante : 
 
 ```sql
-CREATE LOGIN sa_backup WITH PASSWORD = 'topsecure42!'
+CREATE LOGIN backup_sa WITH PASSWORD = 'topsecure42!'
 ```
 
 Puis sur la **base de données** que l'on souhaite copier
@@ -41,7 +41,7 @@ Maintenant passons à votre serveur cible, celui où vous voulez copier votre ba
 Créons notre compte de la même manière que précédemment : 
 
 ```sql
-CREATE LOGIN sa_backup WITH PASSWORD = 'topsecure42!'
+CREATE LOGIN backup_sa WITH PASSWORD = 'topsecure42!'
 ```
 
 Puis sur la base de données **master** il faut ajouter notre utilisateur dans le groupe db_manager
