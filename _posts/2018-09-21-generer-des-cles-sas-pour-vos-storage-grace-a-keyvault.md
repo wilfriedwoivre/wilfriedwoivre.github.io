@@ -45,7 +45,7 @@ $start = [System.DateTime]::Now.AddMinutes(-15)
 $end = [System.DateTime]::Now.AddMinutes(15)
 $token = New-AzureStorageAccountSASToken -Service Blob,File,Table,Queue -ResourceType Service,Container,Object -Permission "racwdlup" -Protocol HttpsOnly -StartTime $start -ExpiryTime $end -Context $context
 
-$validityPeriod = $validityPeriod = [System.Timespan]::FromMinutes(30)
+$validityPeriod = [System.Timespan]::FromMinutes(30)
 Set-AzureKeyVaultManagedStorageSasDefinition -VaultName $keyVaultName -AccountName $storageAccountName -Name $sasTokenName -ValidityPeriod $validityPeriod -SasType 'account' -TemplateUri $token
 ```
 
