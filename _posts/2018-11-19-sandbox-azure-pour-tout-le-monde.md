@@ -9,7 +9,7 @@ Il y a quelques articles de cela, j'ai écrit une série d'articles pour vous mo
 * Introduction : [http://blog.woivre.fr/blog/2018/03/sandbox-azure-contexte-et-configuration-azure-active-directory](http://blog.woivre.fr/blog/2018/03/sandbox-azure-contexte-et-configuration-azure-active-directory)
 * Provisionnement des utilisateurs : [http://blog.woivre.fr/blog/2018/04/sandbox-azure-provisionnement-des-utilisateurs](http://blog.woivre.fr/blog/2018/04/sandbox-azure-provisionnement-des-utilisateurs)
 * Gestion des groupes de ressources : [http://blog.woivre.fr/blog/2018/06/sandbox-azure-gestion-des-groupes-de-ressources](http://blog.woivre.fr/blog/2018/06/sandbox-azure-gestion-des-groupes-de-ressources)
-* Azure Policy : [http://blog.woivre.fr/blog/2018/06/sandbox-azure-mise-en-place-de-policy-azure](http://blog.woivre.fr/blog/2018/06/sandbox-azure-mise-en-place-de-policy-azure)
+* Azure Policy : [http://blog.woivre.fr/blog/2018/07/sandbox-azure-mise-en-place-de-policy-azure](http://blog.woivre.fr/blog/2018/07/sandbox-azure-mise-en-place-de-policy-azure)
 * Monitoring & Event Grid : [http://blog.woivre.fr/blog/2018/07/sandbox-azure-monitorer-lusage-grace-a-event-grid](http://blog.woivre.fr/blog/2018/07/sandbox-azure-monitorer-lusage-grace-a-event-grid)
 
 Il faut savoir que j'ai aussi sur mon compte Azure une sandbox basée sur les mêmes services à savoir :
