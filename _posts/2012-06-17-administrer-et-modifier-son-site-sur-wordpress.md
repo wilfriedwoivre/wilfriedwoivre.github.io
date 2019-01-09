@@ -2,7 +2,7 @@
 layout: post
 title: Administrer, et modifier son site sur Wordpress
 date: 2012-06-17
-categories: [ "Azure", "Web App Service" ]
+categories: [ "Azure", "Web App" ]
 ---
 
 On a vu dans un article précédent, comment déployer Wordpress sur Azure en quelques clics, et très peu de temps, si vous ne savez toujours pas comment faire, voici un peu de [lecture](http://blog.woivre.fr/Archives/2012/6/deployer-wordpress-sur-azure-en-3-clics-et-un-cafe-)
