@@ -34,8 +34,8 @@ Maintenant voyons comment faire cela en ARM.
 
 Cette partie de template ARM contient les éléments suivants : 
 
--Type : Type de la ressource suivi de  **/providers/locks**
--Name : Nom de la ressource suivi de **/Microsoft.Authorization/** puis le nom du Lock
+- Type : Type de la ressource suivi de  **/providers/locks**
+- Name : Nom de la ressource suivi de **/Microsoft.Authorization/** puis le nom du Lock
 
 **Verrouiller un groupe de resource**
 
