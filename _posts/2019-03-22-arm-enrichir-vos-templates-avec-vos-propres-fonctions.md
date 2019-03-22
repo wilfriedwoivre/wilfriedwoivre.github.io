@@ -111,4 +111,4 @@ Au global cela nous donne le template suivant :
 }
 ```
 
-Pratique si vous ne voulez pas trop vous répétez dans vos templates.
+Pratique si vous ne voulez pas trop vous répéter dans vos templates.
