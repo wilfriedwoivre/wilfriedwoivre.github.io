@@ -5,9 +5,9 @@ date: 2019-03-11
 categories: [ "Azure", "ARM"  ]
 ---
 
-Un petit article pour vous faire part des nouveautés disponibles sur ARM que je trouve vraiment cool, et surtout que j'attendais particulièrement. 
+Un petit article pour vous faire part des nouveautés disponibles sur ARM que je trouve vraiment cool, et surtout que j'attendais particulièrement.
 
-Possibilité d'ajouter un paramètre avec la date currente. 
+Possibilité d'ajouter un paramètre avec la date courante.
 
 ```json
 "parameters": {
