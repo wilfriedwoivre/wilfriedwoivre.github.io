@@ -7,7 +7,7 @@ categories: [ "Azure", "Functions" ]
 
 Si vous avez une convention de nommage pour votre compte Azure, je suppose que comme moi ce qui vous agace le plus ce sont les ressources qui se nomment comme elles le souhaitent.
 
-Avec la popularité d'Azure Function, vous avez dû voir apparaitre des Service Plan nommé "WestEuropePlan" ou tout autre. Et bien sachez qu'il est très simple de le nommer comme vous le voulez grâce à l'ARM suivant : 
+Avec la popularité d'Azure Function, vous avez dû voir apparaitre des Services Plans nommés "WestEuropePlan" ou tout autre. Et bien sachez qu'il est très simple de le nommer comme vous le voulez grâce à l'ARM suivant : 
 
 ```json
 {
