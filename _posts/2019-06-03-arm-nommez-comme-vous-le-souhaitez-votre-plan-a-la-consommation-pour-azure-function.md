@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: ARM - Nommez comme vous le souhaité votre plan à la consommation pour Azure Function
+title: ARM - Nommez comme vous le souhaitez votre plan à la consommation pour Azure Function
 date: 2019-06-03
 categories: [ "Azure", "Functions" ]
 ---
