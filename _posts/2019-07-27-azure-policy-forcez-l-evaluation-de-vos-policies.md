@@ -28,7 +28,7 @@ $authHeader = @{
 $subscriptionId = ""
 $resourceGroup = ""
 
-$restUrl = "POST https://management.azure.com/subscriptions/$subscriptionId/resourceGroups/$resourceGroup/providers/Microsoft.PolicyInsights/policyStates/latest/triggerEvaluation?api-version=2018-07-01-preview"
+$restUrl = "https://management.azure.com/subscriptions/$subscriptionId/resourceGroups/$resourceGroup/providers/Microsoft.PolicyInsights/policyStates/latest/triggerEvaluation?api-version=2018-07-01-preview"
 
  Invoke-WebRequest -Uri $restUrl -Method POST -Headers $authHeader
 ```
