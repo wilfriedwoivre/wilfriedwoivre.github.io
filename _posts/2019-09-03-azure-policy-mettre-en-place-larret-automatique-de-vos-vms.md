@@ -5,14 +5,14 @@ date: 2019-09-03
 categories: [ "Azure",  "Policy", "Virtual Machines" ]
 ---
 
-Lorsqu'on parle de Cloud, on parle très souvent des coûts que cela implique. Il est nécessaire d'optimiser son budget pour qu'à la fin du mois la facture ne soit pas trop salée. Il existe plusieurs solutions pour que les finances reste au vert à la fin du mois comme les suivantes :
+Lorsqu'on parle de Cloud, on parle très souvent des coûts que cela implique. Il est nécessaire d'optimiser son budget pour qu'à la fin du mois la facture ne soit pas trop salée. Il existe plusieurs solutions pour que les finances restent au vert à la fin du mois comme les suivantes :
 
-- Supprimer les ressources inutilisés.... Mais qui a laissé trainer ce Azure Firewall
+- Supprimer les ressources inutilisées.... Mais qui a laissé trainer cet Azure Firewall
 - Eteindre vos VMs le soir sur vos environnements hors production
 - Mettre en place de l'autoscaling sur les environnements de production
 - Créer des environnements temporaires pour vos tests. N'oubliez pas que je vous ai fournis tous les outils pour réaliser votre propre [Sandbox](https://blog.woivre.fr/blog/2018/11/sandbox-azure-pour-tout-le-monde)
 
-Revenons sur le point d'éteindre vos machines le soir, à part s'il s'agit de votre carte bleue personnelle, vous l'oubliez générallement un soir sur deux, si ce n'est plus.
+Revenons sur le point d'éteindre vos machines le soir, à part s'il s'agit de votre carte bleue personnelle, vous l'oubliez généralement un soir sur deux, si ce n'est plus.
 Mais il est possible d'automatiser cela de plusieurs manières :
 
 - `Auto-shutdown`: Disponible de manière built in dans Azure, via la blade de votre VM, il y a l'interface pour l'AutoShutdown. On retrouvera ici à configurer une heure d'arrête sur une timezone spécifique, et la possibilité d'avoir une notification avant l'extinction de la VM. Il est bien entendu possible d'activer ou désactiver cette fonctionnalité par VM.
@@ -25,7 +25,7 @@ Mais il est possible d'automatiser cela de plusieurs manières :
   
   - **Inconvénients** : Même horaire pour toutes vos VMs d'une souscription, ou alors il faut faire plusieurs automations.
 
-- `Azure Automation & Tags`: Il est possible de créer un runbook qui allume ou éteint vos serveurs en fonction de tags. Il est possible d'en trouver dans la gallerie
+- `Azure Automation & Tags`: Il est possible de créer un runbook qui allume ou éteint vos serveurs en fonction de tags. Il est possible d'en trouver dans la galerie
   - **Avantages** : Possibilité de gérer chacune de vos VMS de manière indépendante via des tags. La gestion du script est centralisé sur un seul Azure Automation.
 
   - **Inconvénients** : Runbook à gérer et à monitorer en cas d'erreur.
@@ -94,7 +94,7 @@ Maintenant pour éviter le côté fastidieux, il est possible de créer un templ
 
 Il est maintenant possible de créer cet objet pour chaque VM via une Azure Policy avec un effet **deployIfNotExists**
 
-Pour le passage de mes paramètre à mon template ARM, je décide de mettre des tags sur mes VMs, et de les utiliser en paramètre comme le montre la policy ci-dessous : 
+Pour le passage de mes paramètres à mon template ARM, je décide de mettre des tags sur mes VMs, et de les utiliser en paramètre comme le montre la policy ci-dessous : 
 
 ```json
 {
