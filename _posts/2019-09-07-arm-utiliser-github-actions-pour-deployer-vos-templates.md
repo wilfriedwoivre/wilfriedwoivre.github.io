@@ -50,9 +50,9 @@ jobs:
       uses: Azure/github-actions/login@master
       env:
         AZURE_SUBSCRIPTION: MySubName
-        AZURE_SERVICE_APP_ID: ${{ secrets.AZURE_SERVICE_APP_ID }}
-        AZURE_SERVICE_PASSWORD: ${{ secrets.AZURE_SERVICE_PASSWORD }}
-        AZURE_SERVICE_TENANT: ${{ secrets.AZURE_SERVICE_TENANT }}  
+        AZURE_SERVICE_APP_ID: ${ { secrets.AZURE_SERVICE_APP_ID } }
+        AZURE_SERVICE_PASSWORD: ${ { secrets.AZURE_SERVICE_PASSWORD } }
+        AZURE_SERVICE_TENANT: ${ { secrets.AZURE_SERVICE_TENANT } }
 
     - name: Azure - Deploy ARM Template
       uses: Azure/github-actions/arm@master
@@ -114,10 +114,11 @@ Ici, nous allons utiliser une action disponible sur le repo Git [Azure Action](h
       uses: Azure/github-actions/login@master
       env:
         AZURE_SUBSCRIPTION: MySubName
-        AZURE_SERVICE_APP_ID: ${{ secrets.AZURE_SERVICE_APP_ID }}
-        AZURE_SERVICE_PASSWORD: ${{ secrets.AZURE_SERVICE_PASSWORD }}
-        AZURE_SERVICE_TENANT: ${{ secrets.AZURE_SERVICE_TENANT }}  
+        AZURE_SERVICE_APP_ID: ${ { secrets.AZURE_SERVICE_APP_ID } }
+        AZURE_SERVICE_PASSWORD: ${ { secrets.AZURE_SERVICE_PASSWORD } }
+        AZURE_SERVICE_TENANT: ${ { secrets.AZURE_SERVICE_TENANT } }  
 ```
+
 
 Et pour finir, voici notre déploiement :
 
