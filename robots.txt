@@ -1,2 +1,2 @@
 ﻿User-Agent: *
-Sitemap: https://blog.woivre.fr/sitemap-index.xml
+Sitemap: https://blog.woivre.fr/sitemap.xml
