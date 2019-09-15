@@ -107,7 +107,7 @@ Maintenant, passons à nos différentes étapes, la première est la plus simple
 ```
 
 Commençons par nous connecter à nous connecter à Azure grâce à notre SPN.
-Ici, nous allons utiliser une action disponible sur le repo Git [Azure Action](https://github.com/Azure/github-actions/login@master)
+Ici, nous allons utiliser une action disponible sur le repo Git [Azure Action](https://github.com/Azure/github-actions/tree/master/login)
 
 ```yaml
     - name: Azure - Login
