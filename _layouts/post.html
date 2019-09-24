@@ -7,9 +7,9 @@ permalink: /blog/
 <div class="container-fluid body-content">
     <div class="row">
         <div class="col-md-12 col-offset-250">
-            <div class="well">
+            <div class="well" itemscope itemtype ="http://schema.org/TechArticle">
                 <article>
-                    <p class="date">
+                    <p class="date" itemprop="dateCreated">
                         {% assign monthIndex = page.date | date: '%m' | minus: 1 %} {{ site.data.fr.shortmonths[monthIndex] }}
                         <span>{{ page.date | date: '%d' }}</span>
                     </p>
@@ -32,7 +32,7 @@ permalink: /blog/
                         <a href="{{ site.url }}{{ page.url }}{{ site.isso_suffix }}#isso-thread">Comments</a>
                     </p>
                     {% endif %} {% endif %}
-                    <div class="post-content">
+                    <div class="post-content" itemprop="articleBody">
                         {{ content }}
                     </div>
                     {% if page.comments %} {% if site.disqus != '' %}
