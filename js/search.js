@@ -1,5 +1,5 @@
 function search() {
-    input = $("#search-input").val();
+    input = $("#search-input").val().toLowerCase();
 
     var results = searchData.reduce(function (a, e, i) 
     { 
