@@ -38,9 +38,9 @@ title: Home
 
             {% if start < 1 %}
             {% assign start = 1 %}
-            {% assign end = start | plus: 4 %}
+            {% assign end = start | plus: 2 %}
             {% elsif end > paginator.total_pages %}
-            {% assign start = paginator.total_pages | minus: 4 %}
+            {% assign start = paginator.total_pages | minus: 2 %}
             {% assign end = paginator.total_pages %}
             {% endif %}
 
