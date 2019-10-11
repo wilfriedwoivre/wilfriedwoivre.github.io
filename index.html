@@ -3,56 +3,104 @@ layout: default
 title: Home
 ---
 
-{% for post in paginator.posts %}
-<div class="well">
-    <article>
-        <p class="date">
-                {% assign monthIndex = post.date | date: '%m' | minus: 1 %}
-                {{ site.data.fr.shortmonths[monthIndex] }}
-            <span>{{ post.date | date: '%d' }}</span>
-        </p>   
-        <h1>
-            <a href="{{ site.url}}{{ post.url }}">{{ post.title }}</a>
-        </h1>
-        <div class="postInfo">
-                <div class="cat">
-                    <strong>Cat&eacute;gories :</strong> 
-                    {% assign last_category = post.categories | last %}
-                    {% for category in post.categories %}
-                        {% assign isLast = false %}
-                        <a href="{{ site.url }}/categories.html#{{ category | url_encode }}">{{ category }}</a>{% unless category == last_category %}, {% endunless %}
-                    {% endfor %}
+<div class="row">
+    <div class="col-lg-8 col-md-4">
+        <ul>
+            <div class="row">
+                {% for post in paginator.posts %}
+                <div class="card blog-post">
+                    <div class="card-img-top center">
+                        {% for category in post.categories %}
+                        <img class="card-img-top-item"
+                            src="{{ site.url }}/assets/img/categories/{{ category | replace: ' ', '' | downcase }}.png"
+                            alt="{{ category }}" /> {{ category }}
+                        {% endfor %}
+                    </div>
+                    <div class="card-body center">
+                        <h4 class="card-title">{{ post.title }}</h4>
+
+                        <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%b %-d, %Y" }}</h6>
+                        <p class="card-text">{{ post.summary }} </p>
+
+                        <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary btn-lg">Lire</a>
+                    </div>
                 </div>
-        </div>
-       
 
-        {% if site.comments and post.comments %}
-            {% if site.disqus != '' %}
-            <p class="author"><a href="{{ site.url }}{{ post.url }}/#disqus_thread" data-disqus-identifier="{{ post.url | slugify }}">Comments</a></p>
-            {% elsif site.isso != '' %}
-            <p class="author"><a href="{{ site.url }}{{ post.url }}{{ site.isso_suffix }}#isso-thread">Comments</a></p>
+                {% endfor %}
+            </div>
+        </ul>
+        <div class="card pagination-card center">
+            <!-- Pagination links -->
+            {% if paginator.total_pages > 1 %}
+
+            {% assign start = paginator.page | minus: 2 %}
+            {% assign end = paginator.page | plus: 2 %}
+
+            {% if start < 1 %}
+            {% assign start = 1 %}
+            {% assign end = start | plus: 4 %}
+            {% elsif end > paginator.total_pages %}
+            {% assign start = paginator.total_pages | minus: 4 %}
+            {% assign end = paginator.total_pages %}
             {% endif %}
-        {% endif %}
-        <div class="content">
-            {{ post.content }}
-            <hr />
-            {% include share-list.html %}
+
+            {% if start < 1 %}
+            {% assign start = 1 %}
+            {% endif %}
+
+            {% if end > paginator.total_pages %}
+            {% assign end = paginator.total_pages %}
+            {% endif %}
+
+            <div class="pagination-wrapper">
+                <div class="pagination">
+                    {% if paginator.previous_page %}
+                    <a class="pagination-step"
+                        href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+                        Récents
+                    </a>
+                    {% else %}
+                    <span class="pagination-step">
+                        Récents
+                    </span>
+                    {% endif %}
+
+                    {% if start > 1 %}
+                    <a class="pagination-first" href="{{ site.baseurl }}/">1</a>
+                    <span class="pagination-more">&middot;&middot;&middot;</span>
+                    {% endif %}
+
+                    {% for page in (start..end) %}
+                    {% if page == paginator.page %}
+                    <span class="active">{{ page }}</span>
+                    {% elsif page == 1 %}
+                    <a href="{{ site.baseurl }}/">{{ page }}</a>
+                    {% else %}
+                    <a href="{{ site.baseurl }}/page{{ page }}">{{ page }}</a>
+                    {% endif %}
+                    {% endfor %}
+
+                    {% if end < paginator.total_pages %}
+                    <span class="pagination-more">&middot;&middot;&middot;</span>
+                    <a class="pagination-last"
+                        href="{{ site.baseurl }}/page{{ paginator.total_pages }}">{{ paginator.total_pages }}</a>
+                    {% endif %}
+
+                    {% if paginator.next_page %}
+                    <a class="pagination-step"
+                        href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+                        Anciens
+                    </a>
+                    {% else %}
+                    <span class="pagination-step">
+                        Anciens
+                    </span>
+                    {% endif %}
+                </div>
+            </div>
+            {% endif %}
         </div>
-    </article>
-</div>
+    </div>
+    {%- include sidebar.html -%}
 
-{% endfor %}
-
-<div class="pagination">
-  {% if paginator.previous_page %}
-      {% if paginator.previous_page == 1 %}
-        <a class="btn btn-default" href="{{ site.url}}/index.html" class="previous">Quoi de neuf ?</a>
-      {% else %}
-        <a class="btn btn-default" href="{{ site.url}}/page{{ paginator.previous_page }}" class="previous">Quoi de neuf ?</a>
-      {% endif %}
-  {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a class="btn btn-default" href="{{ site.url}}/page{{ paginator.next_page }}" class="next">Et avant ?</a>
-  {% endif %}
 </div>

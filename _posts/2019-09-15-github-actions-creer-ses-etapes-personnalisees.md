@@ -24,7 +24,7 @@ Elle permet de déployer soit sur un groupe de ressource soit sur une souscripti
 Pour ce faire, il vous suffit juste de créer une image Docker qui réalisera ce dont vous avez besoin.
 Pour ma part, j'ai repris quelque chose de similaire de celles qui sont fournis par Microsoft.
 
-A savoir le `Dockerfile` suivant
+A savoir le ***Dockerfile*** suivant
 
 ```DockerFile
 
@@ -174,7 +174,7 @@ Pour l'utiliser, il suffit de créer vos étapes de la manière suivantes :
         AZURE_TEMPLATE_PARAM_LOCATION: arm-deployment-sub.parameters.json
 ```
 
-Dans la propriété `use` on retrouve mon image Docker selon le format suivant : **mon_nom_d'utilisateur**/**mon_repo_github**/**arborescence**@**branch**
+Dans la propriété ***use*** on retrouve mon image Docker selon le format suivant : **mon_nom_d'utilisateur**/**mon_repo_github**/**arborescence**@**branch**
 
 L'image est ensuite construite lors de chaque début de job sur Github Action
 

@@ -1,15 +1,22 @@
-{% include header.html %}
+---
+layout: compress
+---
 
-<div class="container-fluid body-content">
-    <div class="row">
-        <div class="col-md-12 col-offset-250">
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+{%- include head.html -%}
+
+<body>
+    <div class="container-fluid">
+        {%- include header.html -%}
+
+        <div class="col-lg-12">
             {{ content }}
         </div>
-        <div class="col-fixed-220 hidden-xs">
-            {% include sidebar.html %}
-        </div>
+        
+        {%- include footer.html -%}
     </div>
-</div>
+    
+</body>
 
-<div class="clear"></div>
-{% include footer.html %}
+</html>

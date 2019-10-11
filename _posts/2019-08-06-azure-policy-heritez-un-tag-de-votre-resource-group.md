@@ -67,7 +67,7 @@ Cette policy est très pratique car elle taggue automatiquement toutes vos resso
 Maintenant imaginons que nous devions changer la valeur du tag au niveau du resource group pour une raison ou une autre. La policy builtin ne change pas les tags existants, mais surtout elle n'alerte pas que le tag assigné à votre ressource n'est pas le bon comme on peut le voir ci-dessous
 
 Dans mon cas de test je créé un groupe de ressource avec le tag **tag-demo** à la valeur *Demo-blog* avec la policy built-in correctement associé, puis je crée un storage account. Ce premier a bien le bon tag qui est appliqué.
-Dès que la policy est évalué, elle indique que mon groupe de ressource est bien `Compliant`.
+Dès que la policy est évalué, elle indique que mon groupe de ressource est bien ***Compliant***.
 
 Maintenant, je change la valeur de mon tag, et je recréé un storage account, qui cette fois-ci récupère bien la nouvelle valeur de mon tag.
 
@@ -158,4 +158,4 @@ Ma compliance est maintenant à 50% :
 ![image]({{ site.url }}/images/2019/08/06/azure-policy-heritez-un-tag-de-votre-resource-group-img3.png "image")
 ![image]({{ site.url }}/images/2019/08/06/azure-policy-heritez-un-tag-de-votre-resource-group-img4.png "image")
 
-J'ai fait le choix de ne pas avoir un statut à `Non Compliant` et d'utiliser qu'une seule policy. Par contre si vous souhaitez avoir un statut à `Non Compliant` le plus simple est d'utiliser la policy Built-In et de vous créez une custom qui vérifie si la valeur des tags est toujours aligné.
+J'ai fait le choix de ne pas avoir un statut à ***Non Compliant*** et d'utiliser qu'une seule policy. Par contre si vous souhaitez avoir un statut à ***Non Compliant*** le plus simple est d'utiliser la policy Built-In et de vous créez une custom qui vérifie si la valeur des tags est toujours aligné.

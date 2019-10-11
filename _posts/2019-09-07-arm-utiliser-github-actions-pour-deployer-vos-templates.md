@@ -94,9 +94,9 @@ jobs:
 
 A ce jour, les valeurs disponibles pour faire tourner notre actions sont les suivantes [Github Action documentation](https://help.github.com/en/articles/workflow-syntax-for-github-actions#jobsjob_idruns-on):
 
-- `ubuntu-latest`, `ubuntu-18.04`, or `ubuntu-16.04`
-- `windows-latest`, `windows-2019`, or `windows-2016`
-- `macOS-latest` or `macOS-10.14`
+- ***ubuntu-latest***, ***ubuntu-18.04***, or ***ubuntu-16.04***
+- ***windows-latest***, ***windows-2019***, or ***windows-2016***
+- ***macOS-latest*** or ***macOS-10.14***
 
 Maintenant, passons à nos différentes étapes, la première est la plus simple il s'agit de récupérer le code source
 
@@ -114,11 +114,10 @@ Ici, nous allons utiliser une action disponible sur le repo Git [Azure Action](h
       uses: Azure/github-actions/login@master
       env:
         AZURE_SUBSCRIPTION: MySubName
-        AZURE_SERVICE_APP_ID: ${ { secrets.AZURE_SERVICE_APP_ID } }
-        AZURE_SERVICE_PASSWORD: ${ { secrets.AZURE_SERVICE_PASSWORD } }
-        AZURE_SERVICE_TENANT: ${ { secrets.AZURE_SERVICE_TENANT } }  
+        AZURE_SERVICE_APP_ID: ${{ "{{ secrets.AZURE_SERVICE_APP_ID " }}}}
+        AZURE_SERVICE_PASSWORD: ${{ "{{ secrets.AZURE_SERVICE_PASSWORD " }}}}
+        AZURE_SERVICE_TENANT: ${{ "{{ secrets.AZURE_SERVICE_TENANT " }}}}
 ```
-
 
 Et pour finir, voici notre déploiement :
 

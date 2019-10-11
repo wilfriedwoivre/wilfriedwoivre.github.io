@@ -7,13 +7,13 @@
             "label": "Build blog",
             "type": "shell",
             "identifier": "build",
-            "command": "jekyll build"
+            "command": "bundle exec jekyll build"
         },
         {
             "label": "Run local blog",
             "type": "shell",
             "dependsOn": "build",
-            "command": "jekyll serve --future",
+            "command": "bundle exec jekyll serve --future",
             "problemMatcher": []
         },
         {

@@ -3,3 +3,4 @@ _site
 /Gemfile.lock
 /blog.code-workspace
 .DS_Store
+/.sass-cache/

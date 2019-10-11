@@ -15,17 +15,17 @@ Lorsqu'on parle de Cloud, on parle très souvent des coûts que cela implique. I
 Revenons sur le point d'éteindre vos machines le soir, à part s'il s'agit de votre carte bleue personnelle, vous l'oubliez généralement un soir sur deux, si ce n'est plus.
 Mais il est possible d'automatiser cela de plusieurs manières :
 
-- `Auto-shutdown`: Disponible de manière built in dans Azure, via la blade de votre VM, il y a l'interface pour l'AutoShutdown. On retrouvera ici à configurer une heure d'arrête sur une timezone spécifique, et la possibilité d'avoir une notification avant l'extinction de la VM. Il est bien entendu possible d'activer ou désactiver cette fonctionnalité par VM.
+- ***Auto-shutdown***: Disponible de manière built in dans Azure, via la blade de votre VM, il y a l'interface pour l'AutoShutdown. On retrouvera ici à configurer une heure d'arrête sur une timezone spécifique, et la possibilité d'avoir une notification avant l'extinction de la VM. Il est bien entendu possible d'activer ou désactiver cette fonctionnalité par VM.
   - **Avantages**: Possibilité de configurer de manière granulaire chacune de vos VMS, et de définir pour chacune un horaire spécifique
 
   - **Inconvénients** : Fastidieux à mettre en place pour 300 VMS. Pas possible de redémarrer vos VMS le matin.
 
-- `Azure Automation`: Azure Automation offre une solution built-in pour cela. Vous pouvez retrouver toutes les informations dans la [docs Microsoft](https://docs.microsoft.com/en-us/azure/automation/automation-solution-vm-management)
+- ***Azure Automation***: Azure Automation offre une solution built-in pour cela. Vous pouvez retrouver toutes les informations dans la [docs Microsoft](https://docs.microsoft.com/en-us/azure/automation/automation-solution-vm-management)
   - **Avantages** : Toutes vos VMS sont configuréees pour s'éteindre et redémmarrer. Sauf celles que vous avez exclues
   
   - **Inconvénients** : Même horaire pour toutes vos VMs d'une souscription, ou alors il faut faire plusieurs automations.
 
-- `Azure Automation & Tags`: Il est possible de créer un runbook qui allume ou éteint vos serveurs en fonction de tags. Il est possible d'en trouver dans la galerie
+- ***Azure Automation & Tags***: Il est possible de créer un runbook qui allume ou éteint vos serveurs en fonction de tags. Il est possible d'en trouver dans la galerie
   - **Avantages** : Possibilité de gérer chacune de vos VMS de manière indépendante via des tags. La gestion du script est centralisé sur un seul Azure Automation.
 
   - **Inconvénients** : Runbook à gérer et à monitorer en cas d'erreur.

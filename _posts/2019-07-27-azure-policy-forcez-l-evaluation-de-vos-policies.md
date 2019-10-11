@@ -12,8 +12,8 @@ Il est possible de faire cela en powershell via un simple appel REST.
 
 Pour cela il faut utiliser les urls suivantes :
 
-- Souscription : `https://management.azure.com/subscriptions/{subscriptionId}/providers/Microsoft.PolicyInsights/policyStates/latest/triggerEvaluation?api-version=2018-07-01-preview`
-- Resource Group : `https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{YourRG}/providers/Microsoft.PolicyInsights/policyStates/latest/triggerEvaluation?api-version=2018-07-01-preview`
+- Souscription : ***https://management.azure.com/subscriptions/{subscriptionId}/providers/Microsoft.PolicyInsights/policyStates/latest/triggerEvaluation?api-version=2018-07-01-preview***
+- Resource Group : ***https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{YourRG}/providers/Microsoft.PolicyInsights/policyStates/latest/triggerEvaluation?api-version=2018-07-01-preview***
 
 ```powershell
 $azContext = Get-AzContext
