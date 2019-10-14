@@ -8,7 +8,9 @@ body {
 }
 
 @media (max-width: 640px) {
-    .blog-post: 450px;
+    .blog-post {
+        width: 450px
+    }
 }
 
 article .card-body img {
