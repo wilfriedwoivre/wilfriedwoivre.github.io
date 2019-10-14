@@ -29,7 +29,7 @@ title: Home
                         <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%b %-d, %Y" }}</h6>
                         <p class="card-text">{{ post.summary }} </p>
 
-                        <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary btn-lg">Lire</a>
+                        <a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-primary btn-lg">Lire</a>
                     </div>
                 </div>
 
