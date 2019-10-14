@@ -7,6 +7,10 @@ body {
     padding: 0px 5px 0px 5px;
 }
 
+@media (max-width: 640px) {
+    .blog-post: 450px;
+}
+
 article .card-body img {
     max-width: 100%
 }
