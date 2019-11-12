@@ -8,7 +8,7 @@ categories: [ "Azure", "Policy" ]
 Il est de plus en plus courant de mettre en place des Azure Policy pour mieux gérer ses souscriptions Azure.
 Il existe plusieurs types d'effet pour les policies dont entre autre ***Audit***, ***Deny***, ***DeployIfNotExists***
 
-La dernière déploie entre des templates ARM comme je l'ai montré dans un article récent : [Azure Policy - Mettre en place l'arrêt automatique de vos VMs](https://blog.woivre.fr/blog/2019/09/azure-policy-mettre-en-place-larret-automatique-de-vos-vms)
+La dernière déploie entre des templates ARM comme je l'ai montré dans un article récent : [Azure Policy - Mettre en place l'arrêt automatique de vos VMs](https://woivre.fr/blog/2019/09/azure-policy-mettre-en-place-larret-automatique-de-vos-vms)
 
 Maintenant, si on regardait un peu comment ça fonctionne avec cette policy qui sert à ajouter les DiagnosticSettings à un Keyvault :
 

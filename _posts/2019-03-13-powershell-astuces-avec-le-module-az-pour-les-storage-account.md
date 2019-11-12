@@ -18,8 +18,8 @@ Techniquement pour les migrations de vos scripts c'est assez simple à mettre en
 Par ailleurs, le module Az apporte quelques nouveautés plutôt cools notamment pour le Storage.
 J'avais publié différents articles sur le support de RBAC pour accéder aux data du blob storage :
 
-- [Connectez-vous à vos comptes de stockage via Azure Active Directory](http://blog.woivre.fr/blog/2018/09/connectez-vous-a-vos-comptes-de-stockage-via-azure-active-directory)
-- [Générer un token Azure AD via les REST API](http://blog.woivre.fr/blog/2018/10/generer-un-token-azure-ad-via-les-rest-api)
+- [Connectez-vous à vos comptes de stockage via Azure Active Directory](http://woivre.fr/blog/2018/09/connectez-vous-a-vos-comptes-de-stockage-via-azure-active-directory)
+- [Générer un token Azure AD via les REST API](http://woivre.fr/blog/2018/10/generer-un-token-azure-ad-via-les-rest-api)
 
 Et bien maintenant il y a une nouvelle solution, vous pouvez le faire via le module Powershell via les commandes suivantes
 

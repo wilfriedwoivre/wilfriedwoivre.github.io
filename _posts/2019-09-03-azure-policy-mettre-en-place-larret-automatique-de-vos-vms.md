@@ -10,7 +10,7 @@ Lorsqu'on parle de Cloud, on parle très souvent des coûts que cela implique. I
 - Supprimer les ressources inutilisées.... Mais qui a laissé trainer cet Azure Firewall
 - Eteindre vos VMs le soir sur vos environnements hors production
 - Mettre en place de l'autoscaling sur les environnements de production
-- Créer des environnements temporaires pour vos tests. N'oubliez pas que je vous ai fournis tous les outils pour réaliser votre propre [Sandbox](https://blog.woivre.fr/blog/2018/11/sandbox-azure-pour-tout-le-monde)
+- Créer des environnements temporaires pour vos tests. N'oubliez pas que je vous ai fournis tous les outils pour réaliser votre propre [Sandbox](https://woivre.fr/blog/2018/11/sandbox-azure-pour-tout-le-monde)
 
 Revenons sur le point d'éteindre vos machines le soir, à part s'il s'agit de votre carte bleue personnelle, vous l'oubliez généralement un soir sur deux, si ce n'est plus.
 Mais il est possible d'automatiser cela de plusieurs manières :
