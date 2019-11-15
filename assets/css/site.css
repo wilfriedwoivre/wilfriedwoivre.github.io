@@ -34,9 +34,9 @@ article .card-body img {
 .pagination span {
     border-radius: 3px;
     float: left;
-    height: 36px;
-    line-height: 36px;
-    width: 32px;
+    height: 48px;
+    line-height: 48px;
+    width: 48px;
 }
 
 a.pagination-step,
