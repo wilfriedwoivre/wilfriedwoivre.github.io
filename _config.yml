@@ -62,4 +62,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+lang: fr
+
 exclude: ['utils', 'README.md', 'LICENSE']
