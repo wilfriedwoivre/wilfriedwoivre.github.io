@@ -4,3 +4,4 @@ _site
 /blog.code-workspace
 .DS_Store
 /.sass-cache/
+.jekyll-cache
