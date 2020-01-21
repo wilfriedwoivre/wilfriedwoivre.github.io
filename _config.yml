@@ -28,7 +28,7 @@ urls:
     - text: Archives
       url : /archive.html
       target: _self
-    - text: About Me
+    - text: A propos
       url: /about.html
       target: _self
     - text: RSS
@@ -37,6 +37,8 @@ urls:
     - text: Github
       url: https://github.com/wilfriedwoivre
       target: _blank
+    - text: English blog
+      url: https://woivre.com
 
 permalink: '/:year/:month/:title'
 
