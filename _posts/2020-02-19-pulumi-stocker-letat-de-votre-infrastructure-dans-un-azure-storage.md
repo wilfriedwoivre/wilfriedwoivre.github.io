@@ -20,7 +20,7 @@ Par défaut Terraform propose un state basé sur un fichier local, alors que Pul
 ![]({{ site.url }}/images/2020/02/19/pulumi-stocker-letat-de-votre-infrastructure-dans-un-azure-storage-img1.png)
 (source : [https://www.pulumi.com/docs/intro/concepts/state/](https://www.pulumi.com/docs/intro/concepts/state/))
 
-Nous allons voir comment mettre en place notre `state` dans un Azure Blob Storage Azure.
+Nous allons voir comment mettre en place notre *state* dans un Azure Blob Storage Azure.
 Pour cela il nous faut un compte de stockage Azure et un container, le tout via az cli comme ci-dessous :
 
 ```bash
