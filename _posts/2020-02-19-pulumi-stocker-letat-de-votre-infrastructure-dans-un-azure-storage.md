@@ -34,7 +34,7 @@ CONNECTION_STRING=$(az storage account show-connection-string -n $stoName -g $rg
 az storage container create -n $STORAGE_CONTAINER_NAME --connection-string $CONNECTION_STRING
 ```
 
-Avant de commencer toute création de stack via pulumi, la CLI vous demande de créer un `state`, vous avez plusieurs choix qui sont à ce jour les suivants :
+Avant de commencer toute création de stack via pulumi, la CLI vous demande de créer un **state**, vous avez plusieurs choix qui sont à ce jour les suivants :
 
 - Pulumi SAAS
 - Local
@@ -61,7 +61,7 @@ En creusant un peu la documentation et les différents articles de blog, nous vo
 
 On peut retrouver ces informations sur la documentation du SDK Go pour Azure : [https://pkg.go.dev/gocloud.dev/blob/azureblob?tab=doc](https://pkg.go.dev/gocloud.dev/blob/azureblob?tab=doc)
 
-On va donc générer notre SAS Key, puis ajouter nos 2 variables d'environnements qui nous intéresse c'est à dire `AZURE_STORAGE_ACCOUNT` et `AZURE_STORAGE_SAS_TOKEN`
+On va donc générer notre SAS Key, puis ajouter nos 2 variables d'environnements qui nous intéresse c'est à dire **AZURE_STORAGE_ACCOUNT** et **AZURE_STORAGE_SAS_TOKEN**
 
 ```bash
 end=`date -u -d "30 minutes" '+%Y-%m-%dT%H:%MZ'`
