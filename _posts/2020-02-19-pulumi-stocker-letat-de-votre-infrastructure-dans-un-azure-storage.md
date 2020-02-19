@@ -7,7 +7,7 @@ categories: [ "Azure", "Pulumi" ]
 
 Le Cloud n'est plus une plateforme pour les projets personnels, l'industrialisation de son utilisation est devenue pratiquement obligatoire.
 
-Il y a plusieurs manières d'automatisé son environnement Cloud :
+Il y a plusieurs manières d'automatiser son environnement Cloud :
 
 - Utiliser les outils de fournis par l'éditeur : ARM pour Azure ou Cloud Formation pour AWS
 - Passer par des outils tierces comme Terraform, ou Pulumi.
