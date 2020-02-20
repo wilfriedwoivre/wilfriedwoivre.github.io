@@ -14,7 +14,7 @@ Il y a plusieurs manières d'automatiser son environnement Cloud :
 
 Pulumi se distingue par rapport à Terraform sur le fait qu'ils ont fait le choix d'utiliser des technologies existantes comme C# ou Python plutôt que de faire comme Terraform qui a son propre language de développement le HCL.
 
-Cependant entre Pulumi et Terraform, on y voit des similitudes, et la première concernce la présence d'un state. 
+Cependant entre Pulumi et Terraform, on y voit des similitudes, et la première concerne la présence d'un state. 
 Par défaut Terraform propose un state basé sur un fichier local, alors que Pulumi propose un state hébergé sur leur plateforme SAAS, comme on peut le voir ci-dessous :
 
 ![]({{ site.url }}/images/2020/02/19/pulumi-stocker-letat-de-votre-infrastructure-dans-un-azure-storage-img1.png)
@@ -41,19 +41,19 @@ Avant de commencer toute création de stack via pulumi, la CLI vous demande de c
 - Azure Blob
 - AWS S3
 
-Pour notre cas, on va utiliser Azure Blob via une SAS Key, la documentation pulumi indique qu'il faut réaliser cette opération pour utiliser notre compte de stockage fraichement créé:
+Pour notre cas, on va utiliser Azure Blob via une SAS Key, la documentation pulumi indique qu'il faut réaliser cette opération pour utiliser notre compte de stockage fraichement créé :
 
 ```bash
 pulumi login --cloud-url azblob://pulumi-state
 ```
 
-Si on exécute naivement cette commande sur une nouvelle console, nous avons cet output :
+Si on exécute naïvement cette commande sur une nouvelle console, nous avons cet output :
 
 ```bash
 error: problem logging in: unable to open bucket azblob://pulumi-state: azureblob.OpenBucket: accountName is required
 ```
 
-En creusant un peu la documentation et les différents articles de blog, nous voyons qu'il faut indiquer en variable d'environement les informations suivantes :
+En creusant un peu la documentation et les différents articles de blog, nous voyons qu'il faut indiquer en variable d'environnement les informations suivantes :
 
 - AZURE_STORAGE_ACCOUNT : Pour le nom de votre compte de stockage
 - AZURE_STORAGE_KEY : Pour la clé de votre compte de stockage
