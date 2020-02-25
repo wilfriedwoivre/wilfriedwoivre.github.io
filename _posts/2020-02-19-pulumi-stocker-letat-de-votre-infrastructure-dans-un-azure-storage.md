@@ -9,7 +9,7 @@ Le Cloud n'est plus une plateforme pour les projets personnels, l'industrialisat
 
 Il y a plusieurs manières d'automatiser son environnement Cloud :
 
-- Utiliser les outils de fournis par l'éditeur : ARM pour Azure ou Cloud Formation pour AWS
+- Utiliser les outils fournis par l'éditeur : ARM pour Azure ou Cloud Formation pour AWS
 - Passer par des outils tierces comme Terraform, ou Pulumi.
 
 Pulumi se distingue par rapport à Terraform sur le fait qu'ils ont fait le choix d'utiliser des technologies existantes comme C# ou Python plutôt que de faire comme Terraform qui a son propre language de développement le HCL.
