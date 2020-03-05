@@ -39,7 +39,7 @@ Standard_LRS    15
 
 Sur mes souscriptions de tests, ici 5 dans ce tenant, ce script s'est exécuté en 10 secondes à peu près.
 
-Maintenant soyons moderne, on va utiliser Azure Resource Graph Explorer pour cet besoin, je peux utiliser Powershell ou Az Cli pour éxecuter ma requête, mais là je vais utiliser le portail Azure pour m'aider à l'écrire :
+Maintenant soyons moderne, on va utiliser Azure Resource Graph Explorer pour ce besoin, je peux utiliser Powershell ou Az Cli pour éxecuter ma requête, mais là je vais utiliser le portail Azure pour m'aider à l'écrire :
 
 ![]({{ site.url }}/images/2020/02/26/azure-resource-graph-explorer-votre-prochain-outil-favori-img0.png)
 
@@ -56,4 +56,4 @@ resources
 
 Et j'ai le même résultat, mais avec un temps d'exécution de moins d'1 seconde....
 
-Resource Graph Explorer est clairement un très bon outil pour explorer les resources de vos souscriptions avec un language connue et que vous utilisez tous les jours.
+Resource Graph Explorer est clairement un très bon outil pour explorer les ressources de vos souscriptions avec un language connue et que vous utilisez tous les jours.
