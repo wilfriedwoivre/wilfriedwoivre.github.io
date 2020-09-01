@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: Azure Resource Graph Explorer - Quelques examples
+title: Azure Resource Graph Explorer - Quelques exemples
 date: 2020-09-01
 categories: [ "Azure", "Resource Graph" ]
 ---
