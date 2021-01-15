@@ -2,7 +2,7 @@
 layout: post
 title: Azure Bicep - Futur de l'infra as code ?
 date: 2021-01-16
-categories: [ "Azure", "ARM Template", "Bicep" ]
+categories: [ "Azure", "ARM", "Bicep" ]
 ---
 
 Je pense que vous êtes nombreux à avoir au moins jeter un oeil à Azure Bicep, dans cet article je vais essayer de vous expliquer pourquoi à mon avis c'est une technologie à suivre à l'avenir. 
