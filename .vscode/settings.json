@@ -4,5 +4,16 @@
         "_posts/201*.md": true,
         "images/200*": true,
         "images/201*": true,
-    }
+    },
+    "cSpell.words": [
+        "Bicep",
+        "Visual",
+        "layout",
+        "oeil",
+        "releases",
+        "roadmap",
+        "snippets",
+        "tutoriaux"
+    ],
+    "cSpell.language": ",fr"
 }
