@@ -1,0 +1,20 @@
+{
+    "files.exclude": {
+        "_posts/200*.md": true,
+        "_posts/201*.md": true,
+        "_posts/2020*.md": true,
+        "images/200*": true,
+        "images/201*": true,
+    },
+    "cSpell.words": [
+        "Bicep",
+        "Visual",
+        "layout",
+        "oeil",
+        "releases",
+        "roadmap",
+        "snippets",
+        "tutoriaux"
+    ],
+    "cSpell.language": ",fr"
+}
