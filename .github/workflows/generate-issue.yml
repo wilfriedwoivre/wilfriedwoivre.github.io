@@ -26,7 +26,7 @@ jobs:
               echo $title
               issueTitle="$(echo "${title/"title:"/""}"  | xargs -0 echo -n)"
               response=$(curl --request POST --url https://api.github.com/repos/${{ github.repository }}/issues --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' --header 'Content-Type: application/json' --data "{\"title\": \"$issueTitle\", \"body\": \"This issue was automatically created by the GitHub Action workflow\", \"assignees\":[\"wilfriedwoivre\"] }")
-              echo response
+              echo $response
               issueNumber=$($response  | jq '.number')
               echo "$issueNumber"
 
