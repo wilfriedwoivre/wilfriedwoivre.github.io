@@ -30,7 +30,7 @@ jobs:
               issueNumber=$($response  | jq '.number')
               echo "$issueNumber"
 
-              if [[ "null" != "$issueNumber" ]]
+              if [[ "null" != "$issueNumber" ]]; then
                 sed -i "s/githubcommentIdtoreplace:/comments_id: $issueNumber/g" "./_posts/$entry"
 
                 echo "$entry has been updated"
