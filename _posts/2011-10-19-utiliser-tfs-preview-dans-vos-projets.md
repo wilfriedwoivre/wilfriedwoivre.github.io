@@ -3,7 +3,7 @@ layout: post
 title: Utiliser TFS Preview dans vos projets
 date: 2011-10-19
 categories: [ "Azure", "Azure DevOps" ]
-comments_id: null 
+githubcommentIdtoreplace: 
 ---
 
 Premièrement il vous faut un accès à TFS Preview, pour cela rien de plus simple, rendez-vous sur [https://tfspreview.com/](https://tfspreview.com/ "https://tfspreview.com/") et créer un compte, personnellement ils m’ont activé le mien en 5 jours (il y a une liste d’attente, mais j’ai eu la chance d’en avoir un avant)

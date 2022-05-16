@@ -3,7 +3,7 @@ layout: post
 title: Créer vos groupes de ressources via un template ARM
 date: 2018-10-05
 categories: [ "Azure", "ARM" ]
-comments_id: null 
+githubcommentIdtoreplace: 
 ---
 
 La création des groupes de ressources se fait généralement par le portail Azure, ou via votre terminal préféré (CLI ou PowerShell). Il est posssible dorénavant de créer vos groupes de ressources via un template ARM.

@@ -3,7 +3,7 @@ layout: post
 title: Générer un token Azure AD via les REST API
 date: 2018-10-12
 categories: [ "Azure", "Powershell", "Azure Active Directory" ]
-comments_id: null 
+githubcommentIdtoreplace: 
 ---
 
 Dernièrement j'ai eu le besoin d'accéder à un compte de stockage via un compte applicatif, j'ai donc mis en plac un SPN avec un droit RBAC sur mon compte de stockage, comme je le montre dans cet article : [http://blog.woivre.fr/blog/2018/09/connectez-vous-a-vos-comptes-de-stockage-via-azure-active-directory](http://blog.woivre.fr/blog/2018/09/connectez-vous-a-vos-comptes-de-stockage-via-azure-active-directory)

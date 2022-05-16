@@ -3,7 +3,7 @@ layout: post
 title: Déployer Wordpress sur Azure en 3 clics et un café !
 date: 2012-06-11
 categories: [ "Azure", "Web App" ]
-comments_id: null 
+githubcommentIdtoreplace: 
 ---
 
 Suite à toutes les nouveautés de la plateforme Windows Azure sortie en ce début juin, il y en a une que j’apprécie tout particulièrement, c’est la partie Web Sites, que vous pouvez retrouver sur le tout nouveau portail Azure : [http://manage.windowsazure.com](http://manage.windowsazure.com)

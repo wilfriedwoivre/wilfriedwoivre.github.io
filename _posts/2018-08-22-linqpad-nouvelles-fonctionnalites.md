@@ -3,7 +3,7 @@ layout: post
 title: Linqpad - Nouvelles fonctionnalités
 date: 2018-08-22
 categories: [ "Outils" ]
-comments_id: null 
+githubcommentIdtoreplace: 
 ---
 
 Suite à un tweet de Joe Albahari pour la nouvelle beta de Linqpad qui annonce entre autre la fonctionnalité **Interactive Regex Utility**, j'ai décidé de la tester, et j'ai vu qu'il y a quelques autres fonctionnalités bien cools qui sont dedans !

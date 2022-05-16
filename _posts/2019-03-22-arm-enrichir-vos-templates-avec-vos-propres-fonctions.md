@@ -3,7 +3,7 @@ layout: post
 title: ARM - Enrichir vos templates avec vos propres fonctions
 date: 2019-03-22
 categories: [ "Azure", "ARM" ]
-comments_id: null 
+githubcommentIdtoreplace: 
 ---
 
 Les templates ARM vous permettent de déployer vos infrastructures sur Azure ou Azure Stack, et ils vous évitent de nombreux clics dans le portail.

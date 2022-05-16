@@ -3,7 +3,7 @@ layout: post
 title: ARM - Nommez comme vous le souhaitez votre plan à la consommation pour Azure Function
 date: 2019-06-03
 categories: [ "Azure", "Function" ]
-comments_id: null 
+githubcommentIdtoreplace: 
 ---
 
 Si vous avez une convention de nommage pour votre compte Azure, je suppose que comme moi ce qui vous agace le plus ce sont les ressources qui se nomment comme elles le souhaitent.

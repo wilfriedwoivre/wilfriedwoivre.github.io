@@ -3,7 +3,7 @@ layout: post
 title: Migrer vos vieux comptes de stockage
 date: 2018-07-10
 categories: [ 'Azure', 'Storage' ]
-comments_id: null 
+githubcommentIdtoreplace: 
 ---
 
 Mois de juillet oblige, c'est le grand nettoyage de printemps avec quelques mois de retard. Je suis donc en train de faire le grand ménage dans mes différents comptes Azure.

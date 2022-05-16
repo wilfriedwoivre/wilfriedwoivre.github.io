@@ -3,7 +3,7 @@ layout: post
 title: Utilisation des SecureString en Powershell
 date: 2018-03-14
 categories: [ "Powershell" ]
-comments_id: null 
+githubcommentIdtoreplace: 
 ---
 
 La gestion de vos mots de passe en powershell se fait souvent via des securestring, si toutefois la gestion de vos mots de passe se passe via un ensemble de post-it proche de votre bureau, il s’agit d’un problème de sécurité, mais ce n’est pas le sujet ici.

@@ -3,7 +3,7 @@ layout: post
 title: Créez vos Logic Apps via des templates ARM
 date: 2018-12-03
 categories: [ "ARM", "Logic Apps", "Event Grid" ]
-comments_id: null 
+githubcommentIdtoreplace: 
 ---
 
 Si vous avez déjà créé des workflows Logic Apps depuis le portail Azure, vous avez pu voir qu'il est possible de faire énormément de choses avec.

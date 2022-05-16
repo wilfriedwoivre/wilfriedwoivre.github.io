@@ -3,7 +3,7 @@ layout: post
 title: Azure Function - Moi développeur C#, je commence comment ?
 date: 2019-04-04
 categories: [ "Azure", "Function" ]
-comments_id: null 
+githubcommentIdtoreplace: 
 ---
 
 Il est l'heure de ce mettre au Serverless, et sur Azure il y en a 2 principaux qui sont Azure Function et Logic Apps. Ce dernier est très orienté Workflow, donc on ne va pas l'aborder ici. Par contre, on va faire un rapide tour des possibilités qu'on a pour Azure Function.

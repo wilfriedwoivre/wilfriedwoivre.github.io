@@ -3,7 +3,7 @@ layout: post
 title: Service Fabric - Utiliser des contraintes de placements en local
 date: 2018-06-19
 categories: [ "Azure", "Service Fabric" ]
-comments_id: null 
+githubcommentIdtoreplace: 
 ---
 
 Lors d’un précédent article, je vous ai montré comment mettre en place des contraintes de placement sur votre cluster Service Fabric. Un lien vers l’article si vous ne l’avez pas lu, je le recommande : [http://blog.woivre.fr/blog/2018/06/service-fabric-deployer-sur-un-cluster-multinodes](http://blog.woivre.fr/blog/2018/06/service-fabric-deployer-sur-un-cluster-multinodes)

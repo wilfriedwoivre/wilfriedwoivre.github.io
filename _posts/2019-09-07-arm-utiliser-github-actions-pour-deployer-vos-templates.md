@@ -3,7 +3,7 @@ layout: post
 title: ARM - Utiliser Github Actions pour déployer vos templates
 date: 2019-09-07
 categories: [ "Azure", "Github Actions", "ARM" ]
-comments_id: null 
+githubcommentIdtoreplace: 
 ---
 
 Je suppose que vous n'êtes pas sans savoir que Github Action est disponible en beta !!! Et bonne nouvelle pour moi c'est disponible.

@@ -3,7 +3,7 @@ layout: post
 title: Verrouillez vos ressources via ARM
 date: 2019-01-15
 categories: [ "Azure", "ARM" ]
-comments_id: null 
+githubcommentIdtoreplace: 
 ---
 
 Verrouiller ses ressources sur Azure est un moyen simple de s'affranchir d'erreurs d'inattention.

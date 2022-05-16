@@ -3,7 +3,7 @@ layout: post
 title: Azure Policy - Mieux comprendre les policies avec un effet DeployIfNotExists
 date: 2019-10-13
 categories: [ "Azure", "Policy" ]
-comments_id: null 
+githubcommentIdtoreplace: 
 ---
 
 Il est de plus en plus courant de mettre en place des Azure Policy pour mieux gérer ses souscriptions Azure.

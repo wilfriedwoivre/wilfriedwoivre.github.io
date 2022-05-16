@@ -3,7 +3,7 @@ layout: post
 title: Connectez vous à vos comptes de Stockage via Azure Active Directory
 date: 2018-09-25
 categories: [ "Azure", "Storage", "Azure Active Directory" ]
-comments_id: null 
+githubcommentIdtoreplace: 
 ---
 
 On a vu dans un précédent article comment utiliser le KeyVault pour générer des SAS Keys : [http://blog.woivre.fr/blog/2018/09/generer-des-cles-sas-pour-vos-storage-grace-a-keyvault](http://blog.woivre.fr/blog/2018/09/generer-des-cles-sas-pour-vos-storage-grace-a-keyvault)

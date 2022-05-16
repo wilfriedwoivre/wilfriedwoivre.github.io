@@ -3,7 +3,7 @@ layout: post
 title: Powershell - Utilisez vos différents profils
 date: 2018-08-20
 categories: [ "Powershell" ]
-comments_id: null 
+githubcommentIdtoreplace: 
 ---
 
 En cette période de vacances, il est grand temps de faire le plein d'astuces. Pour ceux qui font du scripting pour interargir avec Azure ou autre, vous savez qu'il est très souvent utile d'avoir des scripts réutilisables, et si possible toujours à porteé de main.
