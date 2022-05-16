@@ -25,7 +25,7 @@ jobs:
               title=$(grep -w 'title:' "./_posts/$entry")
               echo $title
               issueTitle="$(echo "${title/"title:"/""}"  | xargs -0 echo -n)"
-              issueTitle="$(echo "${title/"^M"/""}"
+              issueTitle="$(echo "${title/"^M"/""}"  | xargs -0 echo -n)"
               echo "$issueTitle"
               body="{\"title\": \"$issueTitle\", \"body\": \"This issue was automatically created by the GitHub Action workflow\", \"assignees\": [\"wilfriedwoivre\"] }"
               echo "$body" | cat -A
