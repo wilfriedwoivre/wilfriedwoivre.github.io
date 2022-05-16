@@ -3,7 +3,7 @@ layout: post
 title: Nouveau blog
 date: 2018-06-18
 categories: [ "Divers" ]
-githubcommentIdtoreplace: 
+comments_id: 136 
 ---
 
 Et voilà, j'ai encore migré mon blog. En même temps ça ne sera que la 2ème fois depuis sa création.

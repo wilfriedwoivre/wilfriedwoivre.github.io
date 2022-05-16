@@ -3,7 +3,7 @@ layout: post
 title: Sandbox Azure - Mise en place de policy Azure
 date: 2018-07-02
 categories: [ "Azure" ]
-githubcommentIdtoreplace: 
+comments_id: 138 
 ---
 
 

@@ -3,7 +3,7 @@ layout: post
 title: Azure Policy - Mettre en place l'arrêt automatique de vos VMs
 date: 2019-09-03
 categories: [ "Azure",  "Policy", "Virtual Machines" ]
-githubcommentIdtoreplace: 
+comments_id: 168 
 ---
 
 Lorsqu'on parle de Cloud, on parle très souvent des coûts que cela implique. Il est nécessaire d'optimiser son budget pour qu'à la fin du mois la facture ne soit pas trop salée. Il existe plusieurs solutions pour que les finances restent au vert à la fin du mois comme les suivantes :

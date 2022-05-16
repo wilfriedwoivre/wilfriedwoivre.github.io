@@ -3,7 +3,7 @@ layout: post
 title: ARM - DevTestLabs - Spécifier les images de la gallerie autorisées
 date: 2019-04-15
 categories: [ "Azure", "ARM", "DevTestLabs" ]
-githubcommentIdtoreplace: 
+comments_id: 163 
 ---
 
 Lorsque vous mettez en place DevTestLabs en entreprise il est souhaitable d'avoir un moyen d'automatiser la création de celui-ci.

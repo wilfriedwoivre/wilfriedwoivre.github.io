@@ -3,7 +3,7 @@ layout: post
 title: Azure Policy - Forcez l'évaluation de vos policies
 date: 2019-07-27
 categories: [ "Azure", "Policy" ]
-githubcommentIdtoreplace: 
+comments_id: 166 
 ---
 Lorsque vous créez vos propres Azure Policy, il peut être fastidieux de les tester, vu que l'évaluation est déclenchée par Azure.
 

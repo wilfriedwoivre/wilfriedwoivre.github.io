@@ -3,7 +3,7 @@ layout: post
 title: Service Fabric - Service DNS
 date: 2018-09-01
 categories: [ "Azure", "Service Fabric" ]
-githubcommentIdtoreplace: 
+comments_id: 145 
 ---
 
 Il existe plusieurs modèles de programmation sur Service Fabric qui sont les suivants :

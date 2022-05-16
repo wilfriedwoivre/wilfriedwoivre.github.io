@@ -3,7 +3,7 @@ layout: post
 title: Azure - Résoudre les erreurs liées au module Powershell Az
 date: 2019-04-19
 categories: [ "Azure", "Powershell" ]
-githubcommentIdtoreplace: 
+comments_id: 164 
 ---
 
 Ce post peut couvrir une grande partie de vos problèmes en Powershell, et pas uniqument ceux liés aux problèmes avec le module Az.

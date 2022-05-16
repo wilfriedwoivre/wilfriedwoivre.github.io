@@ -3,7 +3,7 @@ layout: post
 title: Service Fabric Mesh
 date: 2018-07-17
 categories: [ "Azure", "Service Fabric" ]
-githubcommentIdtoreplace: 
+comments_id: 140 
 ---
 
 Le mois de juillet a apporté pleins de bonnes nouvelles, la France a gagné une deuxième étoile, mais cela est anecdotique par rapport à l'annonce de Microsoft autour du produit Service Fabric. La public preview de **Service Fabric Mesh** est enfin disponible !

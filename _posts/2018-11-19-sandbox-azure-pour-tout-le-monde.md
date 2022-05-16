@@ -3,7 +3,7 @@ layout: post
 title: Sandbox Azure pour tout le monde
 date: 2018-11-19
 categories: [ "Azure" ]
-githubcommentIdtoreplace: 
+comments_id: 153 
 ---
 
 Il y a quelques articles de cela, j'ai écrit une série d'articles pour vous montrer comment j'ai créé une sandbox Azure à SOAT.

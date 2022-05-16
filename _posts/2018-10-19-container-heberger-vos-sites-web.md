@@ -3,7 +3,7 @@ layout: post
 title: Container - Héberger vos sites Web
 date: 2018-10-19
 categories: [ "Azure", "Container", "Web App"  ]
-githubcommentIdtoreplace: 
+comments_id: 151 
 ---
 
 Depuis un moment, l'utilisation des containers est de plus en plus fréquente, mais attention ce n'est pas parce que c'est à la mode qu'il faut les utiliser à tort et à travers.

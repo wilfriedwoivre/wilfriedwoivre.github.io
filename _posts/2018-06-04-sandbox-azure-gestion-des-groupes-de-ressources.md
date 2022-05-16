@@ -3,7 +3,7 @@ layout: post
 title: Sandbox Azure - Gestion des groupes de ressources
 date: 2018-06-04
 categories: [ "Azure", "Function" ]
-githubcommentIdtoreplace: 
+comments_id: 135 
 ---
 
 Dans le cadre de la sandbox Azure dont je vous ai parlé dans les articles précédents:

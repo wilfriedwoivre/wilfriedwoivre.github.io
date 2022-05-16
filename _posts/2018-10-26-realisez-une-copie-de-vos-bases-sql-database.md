@@ -3,7 +3,7 @@ layout: post
 title: Réaliser une copie de vos bases SQL Database
 date: 2018-10-26
 categories: [ "Azure", "SQL Database" ]
-githubcommentIdtoreplace: 
+comments_id: 152 
 ---
 
 Lorsque vous voulez créer des environnements identiques à un autre, par exemple pour réaliser une copie de votre PROD vers une PPROD, ou mettre en place un environnement de PRA. Le problème se situe au plus souvent de vos données, puisque si je souhaite utiliser un backup et le restore sur une autre base, cela peut prendre beaucoup de temps entre la réalisation du backup et sa restauration.

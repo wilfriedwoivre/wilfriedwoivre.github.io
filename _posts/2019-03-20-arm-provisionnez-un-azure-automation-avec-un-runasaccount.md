@@ -3,7 +3,7 @@ layout: post
 title: ARM - Provisionnez un Azure Automation avec un RunAsAccount
 date: 2019-03-20
 categories: [ "Azure", "ARM", "Automation" ]
-githubcommentIdtoreplace: 
+comments_id: 160 
 ---
 
 Lorsque vous voulez utiliser Azure Automation pour gérer vos ressources Azure, vous devez créer un Service Principal qui vous servira de *RunAsAccount*. Il est possible de faire cela via le portail Azure, et cela vous créera un compte qui ressemble à celui là.

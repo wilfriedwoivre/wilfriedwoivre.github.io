@@ -3,7 +3,7 @@ layout: post
 title: Azure Batch & Windows Container
 date: 2018-09-10
 categories: [ "Azure", "Batch", "Container" ]
-githubcommentIdtoreplace: 
+comments_id: 146 
 ---
 
 Récemment j'ai eu la problématique suivante : trouver un moyen de limiter la consommation mémoire d'une tâche dans Azure Batch. S'agissant à la base d'une tâche réalisée en .Net basée sur un framework pas récent, j'ai décidé de conserver au maximum l'applicatif sans pour autant écrire beaucoup de code pour mettre en place cette limitation.

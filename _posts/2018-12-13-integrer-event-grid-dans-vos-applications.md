@@ -3,7 +3,7 @@ layout: post
 title: Intégrer Event Grid dans vos applications
 date: 2018-12-13
 categories: [ "Azure", "Event Grid" ]
-githubcommentIdtoreplace: 
+comments_id: 156 
 ---
 
 Il existe de nombreux services de messaging sur Azure, qui ont chacun leur propre cas d'utilisation. Pour ma part j'utilise de plus en plus Event Grid pour monitorer ma plateforme Azure, car il offre les avantages suivants :

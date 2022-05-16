@@ -3,7 +3,7 @@ layout: post
 title: ARM - Rejoindre un domaine Active Directory avec prestaging
 date: 2019-02-06
 categories: [ "Azure", "ARM", "Virtual Machines" ]
-githubcommentIdtoreplace: 
+comments_id: 159 
 ---
 
 Créer des machines virtuelles sur Azure est plutôt simple. Cela se corse lorsque vous voulez les créer avec diverses règles de sécurité *"built-in"*.

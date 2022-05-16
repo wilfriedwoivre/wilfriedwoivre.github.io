@@ -3,7 +3,7 @@ layout: post
 title: Github Actions - Créer ses étapes personnalisées
 date: 2019-09-15
 categories: [ "Azure", "Github Actions", "ARM" ]
-githubcommentIdtoreplace: 
+comments_id: 170 
 ---
 
 Lors de mon dernier article je vous ai présenté comment utiliser Github Action pour déployer vos templates ARM.

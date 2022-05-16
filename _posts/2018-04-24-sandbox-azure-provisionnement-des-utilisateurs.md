@@ -3,7 +3,7 @@ layout: post
 title: Sandbox Azure - Provisionnement des utilisateurs
 date: 2018-04-24
 categories: [ "Azure", "Azure Active Directory" ]
-githubcommentIdtoreplace: 
+comments_id: 134 
 ---
 
 Dans le cadre de la sandbox Azure que je vous ai introduit dans un de mes précédents articles : [http://blog.woivre.fr/blog/2018/03/sandbox-azure-contexte-et-configuration-azure-active-directory](http://blog.woivre.fr/blog/2018/03/sandbox-azure-contexte-et-configuration-azure-active-directory "http://blog.woivre.fr/blog/2018/03/sandbox-azure-contexte-et-configuration-azure-active-directory")

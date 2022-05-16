@@ -3,7 +3,7 @@ layout: post
 title: ARM - Etendre vos templates grâce à Azure Function
 date: 2018-12-07
 categories: [ "Azure", "ARM", "Function" ]
-githubcommentIdtoreplace: 
+comments_id: 155 
 ---
 
 Pour construire une infrastructure sur Azure, il y a plusieurs moyens qui s'offrent à vous, notamment les suivants :

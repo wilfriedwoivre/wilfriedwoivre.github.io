@@ -3,7 +3,7 @@ layout: post
 title: Service Fabric 6.4 - Récupérer les évènements via les REST API
 date: 2019-01-11
 categories: [ "Azure", "Service Fabric" ]
-githubcommentIdtoreplace: 
+comments_id: 157 
 ---
 
 Dans la dernière version de Service Fabric, il y a une nouveauté qui est arrivée sur les clusters, il s'agit bien entendu de l'apparition de l'onglet **Events** qui est disponible sur toutes les pages de votre cluster.

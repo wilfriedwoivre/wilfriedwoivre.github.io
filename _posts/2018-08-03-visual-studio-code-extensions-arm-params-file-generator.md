@@ -3,7 +3,7 @@ layout: post
 title: Visual Studio Code Extensions - ARM Params File Generator
 date: 2018-08-03
 categories: [ "Azure", "ARM", "Visual Studio Code" ]
-githubcommentIdtoreplace: 
+comments_id: 142 
 ---
 
 Si comme moi, vous êtes un utilisateur courant de Visual Studio Code, vous savez qu'il s'agit du deuxième meilleur produit fourni par Microsoft (juste après Azure).

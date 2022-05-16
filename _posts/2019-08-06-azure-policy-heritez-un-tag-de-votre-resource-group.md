@@ -3,7 +3,7 @@ layout: post
 title: Azure Policy - Héritez un tag de votre resource group
 date: 2019-08-06
 categories: [ "Azure", "Policy" ]
-githubcommentIdtoreplace: 
+comments_id: 167 
 ---
 
 La mise en place des tags dans Azure est très utilisé notamment pour les besoins des FinOps. Il est donc courant d'avoir des tags liés au contexte projet présents sur nos ressources, même si ceux-ci n'ont aucune utilité fonctionnelle comme un tag pour l'autoshutdown de vos VMs.
