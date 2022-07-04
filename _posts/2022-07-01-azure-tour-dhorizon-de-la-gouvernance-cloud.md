@@ -3,7 +3,7 @@ layout: post
 title: Azure - Tour d'horizon de la gouvernance Cloud
 date: 2022-07-01
 categories: [ "Azure" ]
-githubcommentIdtoreplace:
+githubcommentIdtoreplace: 
 ---
 
 
