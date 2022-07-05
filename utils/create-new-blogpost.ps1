@@ -32,6 +32,7 @@ layout: post
 title: $title
 date: $($date.ToString('yyyy-MM-dd'))
 categories: [  ]
+githubcommentIdtoreplace: 
 ---
 
 "
