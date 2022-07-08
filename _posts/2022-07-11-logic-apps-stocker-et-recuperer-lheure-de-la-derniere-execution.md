@@ -23,7 +23,7 @@ Celui-ci contient :
 
 Si vous souhaitez plus d'information sur comment construire votre Logic App via un template ARM, j'ai publié un article il y a quelques années [Créez vos Logic Apps via des templates ARM](https://woivre.fr/blog/2018/12/creez-vos-logic-apps-via-des-templates-arm) et mauvaise nouvelle ce n'est toujours pas trivial à faire.
 
-Le code est publié sur Github si vous le souhaitez :
+Le code est publié sur Github si vous le souhaitez : [Template bicep](https://github.com/wilfriedwoivre/demo-blog/blob/master/Bicep/logic-apps-with-last-execution-time/main.bicep)
 
 ```bicep
 var demoName = 'demoblog'
