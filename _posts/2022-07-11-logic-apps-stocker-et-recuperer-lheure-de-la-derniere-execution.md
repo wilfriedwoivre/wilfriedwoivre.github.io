@@ -3,7 +3,7 @@ layout: post
 title: Logic Apps - Stocker et récupérer l'heure de la dernière exécution
 date: 2022-07-11
 categories: [ "Azure", "Logic Apps" ]
-githubcommentIdtoreplace: 
+comments_id: 173 
 ---
 
 Pour gérer ma veille technologique, j'utilise aussi Azure, et entre autre Azure Function et Azure Logic Apps.
