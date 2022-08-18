@@ -3,7 +3,7 @@ layout: post
 title: Trouvez vos Azure Policies non utilisées
 date: 2022-08-18
 categories: [ "Azure", "Policy" ]
-githubcommentIdtoreplace: 
+comments_id: 174 
 ---
 
 Créer des Azure policies est une chose très facile, cependant il peut être pratique de savoir si toutes vos Azure policies sont utilisées dans votre environnement.
