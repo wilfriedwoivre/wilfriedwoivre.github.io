@@ -3,7 +3,7 @@ layout: post
 title: Créer un site privé sur Github Pages grâce à Azure Active Directory
 date: 2022-09-29
 categories: [ "Azure", "Azure Active Directory", "Github Actions" ]
-githubcommentIdtoreplace: 
+comments_id: 175 
 ---
 
 Github Pages est un moyen efficace et gratuit d'exposer des sites web statiques via votre repository Github.
