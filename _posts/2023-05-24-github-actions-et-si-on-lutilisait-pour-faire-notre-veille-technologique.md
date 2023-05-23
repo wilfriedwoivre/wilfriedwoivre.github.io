@@ -3,7 +3,7 @@ layout: post
 title: Github Actions - Et si on l'utilisait pour faire notre veille technologique
 date: 2023-05-24
 categories: [ "Divers", "Github Actions" ]
-githubcommentIdtoreplace: 
+comments_id: 176 
 ---
 
 De nos jours faire sa veille technologique peut être compliqué, il y a plein de sources d'informations, de blogs, de sites, de réseaux sociaux, de newsletters, de podcasts, de vidéos, etc. Et il faut faire le tri, trouver les informations pertinentes, les lire, les comprendre, les analyser, etc. Et tout cela prend du temps, beaucoup de temps.
