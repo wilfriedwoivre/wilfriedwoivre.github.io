@@ -2,7 +2,7 @@
 layout: post
 title: Azure Functions - Utiliser Azurite en HTTPS pour vos tests Unitaires
 date: 2023-06-06
-categories: [ "Azure", "Azure Functions" ]
+categories: [ "Azure", "Function" ]
 comments_id: 177 
 ---
 
