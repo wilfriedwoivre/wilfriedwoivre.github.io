@@ -92,6 +92,6 @@ Après je peux l'utiliser à mon gré dans mon worflow commee cela
 
 Et voici le résultat dans mon workflow :
 
-![image]({{ site.url }}/images/2023/05/24/github-actions-et-si-on-lutilisait-pour-faire-notre-veille-technologique-img0 "image")
+![image]({{ site.url }}/images/2023/05/24/github-actions-et-si-on-lutilisait-pour-faire-notre-veille-technologique-img0.png "image")
 
 Et voilà comment j'ai utiliser un outil tel que Github Action pour pouvoir faire ma veille technologique et la partager sur Twitter, et aussi vous partager comment je fais cela.
