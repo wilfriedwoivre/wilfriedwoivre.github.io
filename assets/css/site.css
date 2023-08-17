@@ -71,3 +71,6 @@ span.pagination-step {
     }
 }
 
+.list-tag-head {
+    padding-inline-start: 15px;
+}
