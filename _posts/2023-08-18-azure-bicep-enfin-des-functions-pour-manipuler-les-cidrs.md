@@ -3,7 +3,7 @@ layout: post
 title: Azure Bicep - Enfin des functions pour manipuler les CIDRs
 date: 2023-08-18
 categories: [ "Azure", "Bicep", "ARM" ]
-githubcommentIdtoreplace: 
+comments_id: 178 
 ---
 
 Après des longs moments d'attente, et de scripts Powershell pour préparer des paramètres pour déployer des réseaux ou des NetworkRules sur les services, Microsoft propose enfin des fonctions pour manipuler les CIDR au sein de vos template Bicep.
