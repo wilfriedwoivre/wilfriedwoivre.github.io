@@ -12,7 +12,7 @@ Pour mon dernier projet, j'ai décidé de faire cela dans les règles de l'art, 
 
 Ici mon besoin est très simple, utiliser une Azure Function qui va insérer des données dans un Table Storage.
 
-Mon code C# pour me connecter à mon storage account est donc le suivant : 
+Mon code C# pour me connecter à mon storage account est donc le suivant :
 
 ```csharp
 var client = new TableClient(new Uri(this._options.Uri), tableName, new DefaultAzureCredential());
@@ -20,7 +20,7 @@ var client = new TableClient(new Uri(this._options.Uri), tableName, new DefaultA
 
 Cela me permet d'uniquement de donner l'accès ma table Client, et d'utiliser le DefaultAzureCredential qui me permettra à terme d'utiliser une Managed Identity dans Azure.
 
-Si l'on suit la documentation Azure, ils expliquent qu'il faut mettre comme url pour notre Table Storage quelque chose comme ceci : *http://127.0.0.1:10002/*. C'est donc à ce moment que je me suis dit mais pourquoi pas https. Si l'on regarde la suite de la documentation ils expliquent comment faire, mais mettons cela sur le compte de la fatigue, ça ne fonctionne pas, donc on va le faire ici pas à pas.
+Si l'on suit la documentation Azure, ils expliquent qu'il faut mettre comme url pour notre Table Storage quelque chose comme ceci : *<http://127.0.0.1:10002/>*. C'est donc à ce moment que je me suis dit mais pourquoi pas https. Si l'on regarde la suite de la documentation ils expliquent comment faire, mais mettons cela sur le compte de la fatigue, ça ne fonctionne pas, donc on va le faire ici pas à pas.
 
 ## Installation
 
@@ -53,7 +53,7 @@ mkcert 127.0.0.1
 ```
 
 On a donc deux fichiers qui ont été créés suite à cette commande.
-Après cela, on va modifier les paramètres de votre VS Code pour configurer notre Azurite de la manière suivante : 
+Après cela, on va modifier les paramètres de votre VS Code pour configurer notre Azurite de la manière suivante :
 
 ```json
 "azurite.location": ".azurite",
