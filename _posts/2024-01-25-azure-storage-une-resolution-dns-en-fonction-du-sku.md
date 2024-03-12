@@ -3,7 +3,7 @@ layout: post
 title: Azure Storage - Une résolution DNS en fonction du SKU
 date: 2024-03-12
 categories: [ "Azure", "Storage", "Network" ]
-githubcommentIdtoreplace: 
+comments_id: 181 
 ---
 
 Lors d'une de mes investigations je suis tombé sur quelque chose que je juge intéressant qu'il soit plus connu. J'ai demandé à Microsoft de l'ajouter dans la documentation, mais ce n'est toujours pas le cas.
