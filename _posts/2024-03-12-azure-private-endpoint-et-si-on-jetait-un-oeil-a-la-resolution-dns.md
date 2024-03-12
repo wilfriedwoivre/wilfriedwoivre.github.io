@@ -2,7 +2,7 @@
 layout: post
 title: Azure Private Endpoint - Et si on jetait un oeil à la résolution DNS
 date: 2024-03-12
-categories: [ "Azure", "Network" ]
+categories: [ "Azure", "Network", "Private Endpoint" ]
 comments_id: 179 
 ---
 
