@@ -41,11 +41,11 @@ Donc en terme de flux lorsqu'on veut résoudre notre private endpoint on fait do
 
 ![alt text]({{ site.url }}/images/2024/03/12/azure-private-endpoint-et-si-on-jetait-un-oeil-a-la-resolution-dns-img3.png)
 
-1 - Requête DNS pour le blob storage **mystorage.blob.core.windows.net**
-2 - Réponse DNS : **CNAME mystorage.privatelink.blob.core.windows.net**
-3 - Requête DNS pour l'adresse **mystorage.privatelink.blob.windows.net**
-4 - Réponse DNS : **A 10.0.0.4 mystorage.privatelink.blob.windows.net**
-5 - Connexion à notre blob storage via son private endpoint
+- 1 - Requête DNS pour le blob storage **mystorage.blob.core.windows.net**
+- 2 - Réponse DNS : **CNAME mystorage.privatelink.blob.core.windows.net**
+- 3 - Requête DNS pour l'adresse **mystorage.privatelink.blob.windows.net**
+- 4 - Réponse DNS : **A 10.0.0.4 mystorage.privatelink.blob.windows.net**
+- 5 - Connexion à notre blob storage via son private endpoint
 
 Lorsqu'on fait notre nslookup, nous avons donc le résultat suivant :
 
