@@ -3,7 +3,7 @@ layout: post
 title: Azure Private Endpoint - Et si on jetait un oeil à la résolution DNS
 date: 2024-03-12
 categories: [ "Azure", "Network" ]
-githubcommentIdtoreplace: 
+comments_id: 179 
 ---
 
 Cela fait un moment que je me dis que la gestion des private Endpoints sur Azure ce n'est pas si trivial que cela. Selon moi la documentation Azure peut vous induire en erreur en vous faisant croire que cela va résoudre tous vos problèmes d'accès à vos ressources, de sécurité, et j'en passe, et le tout avec quelques clics de Azure.
