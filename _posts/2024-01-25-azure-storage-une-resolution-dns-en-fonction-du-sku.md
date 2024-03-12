@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title: Azure Storage - Une résolution DNS en fonction du SKU
-date: 2024-03-12
+date: 2024-01-25
 categories: [ "Azure", "Storage", "Network" ]
 comments_id: 181 
 ---
