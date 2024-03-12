@@ -3,7 +3,7 @@ layout: post
 title: Azure - Anticiper les impacts de la suppression des services
 date: 2024-02-11
 categories: [ "Azure" ]
-githubcommentIdtoreplace: 
+comments_id: 180 
 ---
 
 Les services Azure évoluent au fur et à mesure du temps. Et l'un des premiers services Azure est justement en sursis, il s'agit des Cloud Services.
