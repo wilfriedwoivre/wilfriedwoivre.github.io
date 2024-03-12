@@ -135,7 +135,7 @@ Address: 20.60.223.100
 
 Depuis les DNS de Google, nous n'avons pas de soucis, mais depuis le Azure Recursive Resolver cela ne fonctionne pas, car si l'on reprend le schéma suivant:
 
-![alt text]({{ site.url }}/images/2023/12/31/azure-private-endpoint-et-si-on-jetait-un-oeil-a-la-resolution-dns-img3.png)
+![alt text]({{ site.url }}/images/2024/03/12/azure-private-endpoint-et-si-on-jetait-un-oeil-a-la-resolution-dns-img3.png)
 
 Lors de l'étape 2, Azure nous renvoie un CNAME vers le private link que mon client B n'a pas. Ce scénario est valable que vous soyez dans la même souscription, le même tenant, ou le même environnement Azure, donc dans 99% des cas. La seule exception est si un de vos deux clients utilisent Azure China par exemple.
 
