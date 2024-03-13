@@ -45,7 +45,9 @@ Prenons l'exemple d'EventHub avec les versions d'api [2017-04-01](https://learn.
 |tags|yes|
 |type|yes|
 
-Je n'ai qu'une chose à dire ![](https://tenor.com/view/ça-fait-beaucoup-la-non-gif-27295909)
+Je n'ai qu'une chose à dire
+
+![alt text]({{ site.url }}/images/2023/11/05/azure-policy-lenfer-des-versions-dapi-img0.gif)
 
 Si vous avez lu mon précédent article sur [Azure Policy](https://woivre.fr/blog/2023/10/azure-policy-un-outil-puissant-pour-votre-gouvernance-seulement-si-on-lutilise-bien) vous êtes en droit de vous demander comment cela marche-t-il avec la propriété *minimumTLSVersion*. Et si vous ne vous posez pas la question, on va quand même y répondre ici.
 
