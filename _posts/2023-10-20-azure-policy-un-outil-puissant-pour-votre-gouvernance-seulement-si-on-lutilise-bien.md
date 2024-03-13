@@ -3,7 +3,7 @@ layout: post
 title: Azure Policy - Un outil puissant pour votre gouvernance seulement si on l'utilise bien
 date: 2023-10-20
 categories: [ "Azure", "Policy" ]
-githubcommentIdtoreplace: 
+comments_id: 183 
 ---
 
 Azure policy est un outil très puissant, surtout quand il s'agit de gouvernance.
