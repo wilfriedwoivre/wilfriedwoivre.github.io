@@ -2,7 +2,7 @@
 layout: post
 title: Azure Policy - Un outil puissant pour votre gouvernance seulement si on l'utilise bien
 date: 2023-10-20
-categories: []
+categories: [ "Azure", "Policy" ]
 githubcommentIdtoreplace:
 ---
 
