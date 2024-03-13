@@ -14,37 +14,38 @@ Prenons l'exemple d'EventHub avec les versions d'api [2017-04-01](https://learn.
 
 |2024-01-01|Disponible en 2017-04-01 |
 |---|---|
-|id|yes|
-|identity.principalId|no|
-|identity.tenantId|no|
-|identity.type|no|
-|identity.userAssignedIdentities|no|
-|location|yes|
-|name|yes|
-|properties.alternateName|no|
-|properties.clusterArmId|no|
-|properties.createdAt|yes|
-|properties.disableLocalAuth|no|
-|properties.encryption.keySource|no|
-|properties.encryption.keyVaultProperties|no|
-|properties.encryption.requireInfrastructureEncryption|no|
-|properties.isAutoInflateEnabled|yes|
-|properties.kafkaEnabled|yes|
-|properties.maximumThroughputUnits|yes|
-|properties.metricId|yes|
-|properties.minimumTlsVersion|no|
-|properties.privateEndpointConnections|no|
-|properties.provisioningState|yes|
-|properties.publicNetworkAccess|no|
-|properties.serviceBusEndpoint|yes|
-|properties.status|no|
-|properties.updatedAt|yes|
-|properties.zoneRedundant|no|
-|sku|yes|
-|systemData|no|
-|tags|yes|
-|type|yes|
+|id|oui|
+|identity.principalId|non|
+|identity.tenantId|non|
+|identity.type|non|
+|identity.userAssignedIdentities|non|
+|location|oui|
+|name|oui|
+|properties.alternateName|non|
+|properties.clusterArmId|non|
+|properties.createdAt|oui|
+|properties.disableLocalAuth|non|
+|properties.encryption.keySource|non|
+|properties.encryption.keyVaultProperties|non|
+|properties.encryption.requireInfrastructureEncryption|non|
+|properties.isAutoInflateEnabled|oui|
+|properties.kafkaEnabled|oui|
+|properties.maximumThroughputUnits|oui|
+|properties.metricId|oui|
+|properties.minimumTlsVersion|non|
+|properties.privateEndpointConnections|non|
+|properties.provisioningState|oui|
+|properties.publicNetworkAccess|non|
+|properties.serviceBusEndpoint|oui|
+|properties.status|non|
+|properties.updatedAt|oui|
+|properties.zoneRedundant|non|
+|sku|oui|
+|systemData|non|
+|tags|oui|
+|type|oui|
 
+<p></p>
 Je n'ai qu'une chose à dire
 
 ![alt text]({{ site.url }}/images/2023/11/05/azure-policy-lenfer-des-versions-dapi-img0.gif)
