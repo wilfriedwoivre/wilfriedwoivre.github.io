@@ -3,7 +3,7 @@ layout: post
 title: Azure Policy - L'enfer des versions d'API
 date: 2023-11-05
 categories: [ "Azure", "Policy" ]
-githubcommentIdtoreplace: 
+comments_id: 184 
 ---
 
 Azure est un produit qui évolue tous les jours, un peu comme les besoins en sécurité des utilisateurs. Malheureusement ces évolutions sont tellement rapide qu'il est parfois compliqué de toute les partager, mais aussi de les suivre.
