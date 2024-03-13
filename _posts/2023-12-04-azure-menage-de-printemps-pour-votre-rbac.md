@@ -3,7 +3,7 @@ layout: post
 title: Azure - Ménage de printemps pour votre RBAC
 date: 2023-12-04
 categories: [ "Azure" ]
-githubcommentIdtoreplace: 
+comments_id: 182 
 ---
 
 Je suppose que dans votre compte Azure, vous êtes déjà tombé sur le fameux **Identiy not found** dans vos role Assignments RBAC
