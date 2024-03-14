@@ -3,7 +3,7 @@ layout: post
 title: Azure Policy - PostgreSQL Flexible Server - Enforcer l'usage du TLS
 date: 2023-09-14
 categories: ["Azure", "Policy"]
-githubcommentIdtoreplace: 
+comments_id: 186 
 ---
 
 Un petit article rapide pour vous montrer comment enforcer le TLS pour les bases PostgreSQL Flexible Server. Si vous regardez dans les options du control plan Azure vous n'allez pas trouver d'option comme sur les bases PostgreSQL Single Server.
