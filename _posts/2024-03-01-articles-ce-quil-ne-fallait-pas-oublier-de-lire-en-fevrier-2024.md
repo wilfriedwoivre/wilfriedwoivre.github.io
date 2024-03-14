@@ -56,7 +56,7 @@ C'est un peu en vrac, mais je vais voir pour essayer de mettre des catégories p
 - [Public Preview: Regional Disaster Recovery by Azure Backup for AKS](https://azure.microsoft.com/en-us/updates/public-preview-regional-disaster-recovery-by-azure-backup-for-aks/?WT.mc_id=AZ-MVP-4039694)
 - [How to trigger Azure Function from Event Grid over virtual network](https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-to-trigger-azure-function-from-event-grid-over-virtual/ba-p/4049984?WT.mc_id=AZ-MVP-4039694)
 - [Sending a log search alert with cross tenant target resource will no longer be supported](https://azure.microsoft.com/en-us/updates/sending-a-log-search-alert-with-cross-tenant-target-resource-will-no-longer-be-supported/?WT.mc_id=AZ-MVP-4039694)
-- [Public Preview: Azure Storage Actions ΓÇö Serverless storage data management](https://azure.microsoft.com/en-us/updates/azure-storage-actions-preview/?WT.mc_id=AZ-MVP-4039694)
+- [Public Preview: Azure Storage Actions - Serverless storage data management](https://azure.microsoft.com/en-us/updates/azure-storage-actions-preview/?WT.mc_id=AZ-MVP-4039694)
 - [Azure API Center: The First Look](https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-api-center-the-first-look/ba-p/4060180?WT.mc_id=AZ-MVP-4039694)
 - [A look into the Kubernetes Book Club](https://kubernetes.io/blog/2024/02/22/k8s-book-club/)
 - [Azure Automation supports Azure CLI commands in runbooks](https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-automation-supports-azure-cli-commands-in-runbooks/ba-p/4064460?WT.mc_id=AZ-MVP-4039694)
