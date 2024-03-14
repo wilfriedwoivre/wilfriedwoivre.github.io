@@ -57,10 +57,11 @@ if ($fileName[$fileName.Length - 1] -eq '-') {
 $fileName += ".md"
 
 $newPost = $newPost -replace 'ΓÇô', '-'
+$newPost = $newPost -replace 'ΓÇö', "-"
 
 
 $filePath = "$PSScriptRoot\..\_posts\$fileName"
 
-New-Item $filePath -Force
+New-Item $filePath
 
 $newPost | Out-File $filePath -Encoding utf8
