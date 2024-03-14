@@ -9,7 +9,7 @@ comments_id: 187
 Microsoft a annoncé [Deployement Stacks en public preview](https://techcommunity.microsoft.com/t5/azure-governance-and-management/arm-deployment-stacks-now-public-preview/ba-p/3871180) la semaine dernière.
 Pour ceux qui suivent de manière très attentive ce qu'il se passe dans l'environment Azure, on entend parler de cette technologie depuis au moins 2020
 
-![image]({{ site.url }}/2023/07/30/azure-deploiement-stack-le-futur-de-blueprint-img0.png)
+![image]({{ site.url }}/2023/07/30/azure-deployment-stack-le-futur-de-blueprint-img0.png)
 
 Bref, une preview qui s'est fait un peu attendre.
 
@@ -67,7 +67,3 @@ La gestion des locks, n'a rien à voir maintenant on a tout cela :
 - **DenySettingsExcludedPrincipal**: Liste des ID principaux Microsoft Entra ID exclus du verrou. Jusqu’à cinq principaux sont autorisés.
 
 Je pense que même si c'est relativement nouveau, Deployment stack a de l'avenir, et couplé à Template Specs cela peut faire un bon remplacement à Blueprint. J'espère que d'ici 1 an ou 2 je pourrais vous faire un retour d'expérience sur une migration depuis Blueprint
-
-
-
-
