@@ -6,7 +6,7 @@ categories: [ "Azure", "Function" ]
 comments_id: 177 
 ---
 
-Précedemment, le développpement était mon coeur de métier, beaucoup moins à ce jour, mais j'ai toujours un grand plaisir à développer des applications. La plupart de celles ci sont basés sur du serverless. Mon langage de prédilection est le C# donc tout naturellement j'utilise Azure Functions pour mes développements.
+Précedemment, le développement était mon coeur de métier, beaucoup moins à ce jour, mais j'ai toujours un grand plaisir à développer des applications. La plupart de celles ci sont basés sur du serverless. Mon langage de prédilection est le C# donc tout naturellement j'utilise Azure Functions pour mes développements.
 
 Pour mon dernier projet, j'ai décidé de faire cela dans les règles de l'art, enfin du moins j'essaye, et donc j'ai mis en place des tests unitaires pour mon Azure Function. Vu que de mon point de vue faire des mocks pour les accès en base sont inutiles à ce jour, vu la simplicité d'avoir des bases ou émulateurs locals et jetable pour faire les tests, autant les utliser, et ne pas à avoir reproduire tout le mock liés aux accès.
 
