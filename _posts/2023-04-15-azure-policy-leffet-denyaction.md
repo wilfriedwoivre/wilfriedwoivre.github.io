@@ -3,7 +3,7 @@ layout: post
 title: Azure Policy - L'effet DenyAction
 date: 2023-04-15
 categories: ["Azure", "Policy"]
-githubcommentIdtoreplace: 
+comments_id: 188 
 ---
 
 Un nouvel effet est disponible sur les Azure Policy, il s'agit du _DenyAction_, comme son nom l'indique il vous permet de faire un Deny lorsque vous tentez de faire une action. Mais la subtilité c'est que si l'action est faite via cascade, du type suppression d'un ResourceGroup, vous pouvez l'autoriser.
