@@ -3,7 +3,7 @@ layout: post
 title: Azure Bicep - Activer des fonctionnalités des providers via vos templates
 date: 2024-04-02
 categories: [ "Azure", "Bicep" ]
-githubcommentIdtoreplace: 
+comments_id: 189 
 ---
 
 Lorsque vous avez un certain nombre de souscription Azure, il peut être nécessaire d'activer des providers en masse.
