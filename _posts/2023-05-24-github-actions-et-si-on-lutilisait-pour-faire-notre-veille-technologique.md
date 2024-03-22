@@ -63,6 +63,8 @@ Et comment je construis ma matrice en python :
 
 Après je peux l'utiliser à mon gré dans mon worflow commee cela
 
+{% raw %}
+
 ```yaml
   read-rss:
     needs:
@@ -89,6 +91,8 @@ Après je peux l'utiliser à mon gré dans mon worflow commee cela
         GithubRepository: ${{ github.repository }}
         GithubToken: ${{ secrets.GITHUB_TOKEN }}
 ```
+
+{% endraw %}
 
 Et voici le résultat dans mon workflow :
 
