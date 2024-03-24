@@ -26,7 +26,7 @@ $month = (Get-Culture -Name "fr-FR").DateTimeFormat.GetMonthName($currentMonth)
 $title = "Articles - Ce qu'il ne fallait pas oublier de lire en $month $((Get-Date($startDate)).ToString('yyyy'))"
 
 $newPost = "---
-layout: post
+layout: news
 title: $title
 date: $((Get-Date($endDate)).AddDays(1).ToString('yyyy-MM-dd'))
 ---
