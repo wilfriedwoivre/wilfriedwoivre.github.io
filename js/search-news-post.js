@@ -8,5 +8,5 @@ if (urlParams.has('search')) {
         var finding = $(this).text().toLowerCase().includes(input);
         $(this).toggle(finding);
     })
-    $("article .card-body")[0].prepend("Cette article est filtré par recherche: " + input + " et contient " + $("article li:visible").length + " news.");
+    $("article .card-body")[0].prepend("Cette article est filtré par la recherche " + input + " et contient " + $("article li:visible").length + " news.");
 }
