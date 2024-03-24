@@ -8,7 +8,12 @@ function search() {
     });
 
     $(".blog-post").each(function () {
-        $(this).toggle(results.includes($(this).data('url')));
+        var finding = results.includes($(this).data('url'));
+        $(this).toggle(finding);
+        if (finding) {
+            var count = searchData.filter(e => e.url == $(this).data('url'))[0].content.match(new RegExp(input, 'g')).length;
+            ($(this).find("a")[0]).innerText = "Lire " + count + " news";
+        }
     });
 }
 
