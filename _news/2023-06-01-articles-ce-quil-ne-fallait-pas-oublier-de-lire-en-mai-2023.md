@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: news
 title: Articles - Ce qu'il ne fallait pas oublier de lire en mai 2023
 date: 2023-06-01
 ---

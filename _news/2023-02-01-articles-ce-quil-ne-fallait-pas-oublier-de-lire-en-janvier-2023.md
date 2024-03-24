@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: news
 title: Articles - Ce qu'il ne fallait pas oublier de lire en janvier 2023
 date: 2023-02-01
 ---

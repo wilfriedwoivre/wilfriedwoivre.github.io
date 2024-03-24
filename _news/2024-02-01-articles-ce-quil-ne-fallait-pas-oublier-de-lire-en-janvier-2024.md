@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: news
 title: Articles - Ce qu'il ne fallait pas oublier de lire en janvier 2024
 date: 2024-02-01
 ---

@@ -1,3 +1,6 @@
+---
+---
+
 function search() {
     var input = $("#search-input").val().toLowerCase();
 
@@ -13,6 +16,8 @@ function search() {
         if (finding) {
             var count = searchData.filter(e => e.url == $(this).data('url'))[0].content.match(new RegExp(input, 'g')).length;
             ($(this).find("a")[0]).innerText = "Lire " + count + " news";
+            var param = encodeURI(input);
+            ($(this).find("a")[0]).href = "{{ site.url }}" + $(this).data('url') + "?search=" + param;
         }
     });
 }
