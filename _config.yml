@@ -68,7 +68,7 @@ defaults:
       permalink: '/:title'
       title: 'Wilfried Woivré & Azure - :title'
 
-paginate: 12
+paginate: 16
 
 kramdown:
   input: GFM
