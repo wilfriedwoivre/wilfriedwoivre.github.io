@@ -113,7 +113,6 @@ On va ensuite déployer notre bicep suivant avec la plus vieille version de l'AP
 ```bicep
 resource eventhub 'Microsoft.EventHub/namespaces@2017-04-01' = {
   name: 'wwo${deployment().name}${uniqueString(resourceGroup().id)}'
-#disable-next-line no-loc-expr-outside-params
   location: resourceGroup().location
   sku: {
     name: 'Basic'
