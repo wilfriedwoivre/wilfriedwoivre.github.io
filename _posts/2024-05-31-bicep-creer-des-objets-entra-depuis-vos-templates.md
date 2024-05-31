@@ -3,7 +3,7 @@ layout: post
 title: Bicep - Créer des objets Entra depuis vos templates
 date: 2024-05-31
 categories: [ "Azure", "Bicep", "Entra ID" ]
-githubcommentIdtoreplace: 
+comments_id: 190 
 ---
 
 Depuis peu on peut créer des objets Entra Id via nos templates bicep.
