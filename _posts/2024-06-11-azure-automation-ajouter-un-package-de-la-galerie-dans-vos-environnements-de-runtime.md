@@ -3,7 +3,7 @@ layout: post
 title: Azure Automation - Ajouter un package de la galerie dans vos environnements de runtime
 date: 2024-06-11
 categories: [  ]
-githubcommentIdtoreplace: 
+comments_id: 191 
 ---
 
 Récemment Microsoft a ajouté la fonctionnalité de Runtime d'environnement dans Azure Automation.
