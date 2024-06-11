@@ -2,7 +2,7 @@
 layout: post
 title: Azure Automation - Ajouter un package de la galerie dans vos environnements de runtime
 date: 2024-06-11
-categories: [  ]
+categories: [ "Azure", "Automation" ]
 comments_id: 191 
 ---
 
