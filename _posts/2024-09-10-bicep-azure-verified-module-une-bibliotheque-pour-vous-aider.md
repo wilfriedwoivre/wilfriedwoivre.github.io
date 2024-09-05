@@ -3,7 +3,7 @@ layout: post
 title: Bicep - Azure Verified Module, une bibliothèque pour vous aider
 date: 2024-09-10
 categories: [ "Azure", "Bicep" ]
-githubcommentIdtoreplace: 
+comments_id: 192 
 ---
 
 Si vous n'avez pas suivi les nouveautés autour de bicep, il est possible de créer des modules, et de mettre ceux ci dans une registry privée via Azure Container Registry, j'en ferais sûrement un article prochainement.
