@@ -3,7 +3,7 @@ layout: post
 title: Azure Network Security Perimeter - Centraliser la gestion de vos ACLs
 date: 2024-11-28
 categories: [ "Azure", "Network Security Perimeter" ]
-githubcommentIdtoreplace: 
+comments_id: 193 
 ---
 
 Durant cet ignite Microsoft a annoncé la sortie en public preview du produit Network Security Perimeter.
