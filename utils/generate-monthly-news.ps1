@@ -1,5 +1,5 @@
 Param(
-    [int]$monthTosubstract = 2
+    [int]$monthTosubstract = 1
 )
 $ErrorActionPreference = "Stop"
 
@@ -39,6 +39,7 @@ C'est un peu en vrac, mais je vais voir pour essayer de mettre des catégories p
 
 foreach ($new in $news | Sort-Object -Property createdAt) {
     $response = Invoke-WebRequest $new.body -SkipHttpErrorCheck
+    Write-Output "Fetching $($new.title)) - ${response.StatusCode}"
     if ($response.StatusCode -ne 200) {
         Write-Output "Error while fetching $($new.title) $($new.body)"
     }
