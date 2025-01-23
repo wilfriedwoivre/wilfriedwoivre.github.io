@@ -3,7 +3,7 @@ layout: post
 title: Azure Virtual Network Manager - Gérer vos IPS via un IPAM Azure built in
 date: 2025-01-23
 categories: [ "Azure", "Network" ]
-githubcommentIdtoreplace: 
+comments_id: 194 
 ---
 
 Azure Virtual Manager est un outil pour vous aider à gérer la gouvernance dans le Cloud Public, et ici particulièrement la partie réseau.
