@@ -3,7 +3,7 @@ layout: post
 title: Azure Bastion - Enfin un SKU gratuit pour vos tests
 date: 2024-08-26
 categories: [ "Azure", "Bastion" ]
-githubcommentIdtoreplace: 
+comments_id: 196 
 ---
 
 Sécuriser l'accès à vos VMs Azure est très important, et cela fait partie du bon sens de ne pas mettre un accès RDP (ou SSH) disponible sur internet, surtout avec un mot de passe disponible dans Github ou autre ...
