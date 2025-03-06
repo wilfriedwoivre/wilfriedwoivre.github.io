@@ -3,7 +3,7 @@ layout: post
 title: Azure KeyVault - Migrer la gestion des droits d'AccessPolicies à RBAC
 date: 2024-07-17
 categories: [ "Azure", "KeyVault" ]
-githubcommentIdtoreplace: 
+comments_id: 195 
 ---
 
 Sur Azure, on peut créer et utiliser des KeyVault avec deux modes, soit via des AccessPolicies comme historiquement, ou avec le mode RBAC. Et bonne nouvelle avec ce droit on peut mettre des droits fins sur chaque secret de votre keyvault, et plus une permission globale.
