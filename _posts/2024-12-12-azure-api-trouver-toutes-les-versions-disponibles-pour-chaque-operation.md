@@ -3,7 +3,7 @@ layout: post
 title: Azure API - Trouver toutes les versions disponibles pour chaque opération
 date: 2024-12-12
 categories: [ "Azure" ]
-githubcommentIdtoreplace: 
+comments_id: 197 
 ---
 
 L'année dernière je vous ai évoqué l'enfer des APIs pour la gestion des Azure Policies.
