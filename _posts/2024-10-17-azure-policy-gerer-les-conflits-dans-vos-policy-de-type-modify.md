@@ -3,7 +3,7 @@ layout: post
 title: Azure Policy - Gérer les conflits dans vos policy de type Modify
 date: 2024-10-17
 categories: [ "Azure", "Policy" ]
-githubcommentIdtoreplace: 
+comments_id: 198 
 ---
 
 Les policies de type de Modify sont très pratique pour imposer une règle, et prévenir des modifications automatiques issues d'une vieille infrastructure as code de type changer le TLS de 1.2 à 1.0.
