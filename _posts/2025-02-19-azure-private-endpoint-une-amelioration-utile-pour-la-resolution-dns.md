@@ -3,7 +3,7 @@ layout: post
 title: Azure Private Endpoint - Une amélioration utile pour la résolution DNS
 date: 2025-02-19
 categories: [ "Azure", "Network", "Private Endpoint" ]
-githubcommentIdtoreplace: 
+comments_id: 199 
 ---
 
 Dans un précédent [article](https://woivre.fr/blog/2024/03/azure-private-endpoint-et-si-on-jetait-un-oeil-a-la-resolution-dns), je vous ai parlé de la résolution DNS des private endpoint et comment cela peut être compliqué quand vous faîtes entrer plusieurs acteurs en jeu, ou que vous utilisiez des Managed Private Endpoint.
