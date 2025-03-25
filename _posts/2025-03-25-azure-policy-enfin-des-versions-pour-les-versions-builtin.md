@@ -3,7 +3,7 @@ layout: post
 title: Azure Policy - Enfin des versions pour les versions built-in
 date: 2025-03-25
 categories: [ "Azure", "Policy" ]
-githubcommentIdtoreplace: 
+comments_id: 200 
 ---
 
 Lors de la dernière Ignite, Microsoft a annoncé une fonctionnalité que j'attendais beaucoup autour des Azure Policy, elles sont versionnées.
