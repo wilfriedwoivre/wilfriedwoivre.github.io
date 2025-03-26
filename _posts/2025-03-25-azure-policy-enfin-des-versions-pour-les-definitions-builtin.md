@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: Azure Policy - Enfin des versions pour les versions built-in
+title: Azure Policy - Enfin des versions pour les définitions built-in
 date: 2025-03-25
 categories: [ "Azure", "Policy" ]
 comments_id: 200 
