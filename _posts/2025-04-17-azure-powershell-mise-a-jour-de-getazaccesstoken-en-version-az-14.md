@@ -3,7 +3,7 @@ layout: post
 title: Azure Powershell - Mise à jour de Get-AzAccessToken en version Az 14
 date: 2025-04-17
 categories: [ "Azure", "Powershell ]
-githubcommentIdtoreplace: 
+comments_id: 201 
 ---
 
 Dans la prochaine version majeure du module Az pour powershell, il y a un breaking change important qui peut potentiellement impactés tous vos scripts d'automatisation.
