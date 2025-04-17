@@ -2,7 +2,7 @@
 layout: post
 title: Azure Powershell - Mise à jour de Get-AzAccessToken en version Az 14
 date: 2025-04-17
-categories: [ "Azure", "Powershell ]
+categories: [ "Azure", "Powershell" ]
 comments_id: 201 
 ---
 
