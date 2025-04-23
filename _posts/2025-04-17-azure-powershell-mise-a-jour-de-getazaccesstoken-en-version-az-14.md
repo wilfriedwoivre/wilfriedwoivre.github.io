@@ -30,7 +30,7 @@ $token.Token
 System.Security.SecureString
 ```
 
-Le problème c'est que le token n'est maintenant plus utili sable tel quel pour intéragir avec les API Azure.
+Le problème c'est que le token n'est maintenant plus utilisable tel quel pour intéragir avec les API Azure.
 
 Il faut faire une manipulation supplémentaire qui est celle-ci
 
