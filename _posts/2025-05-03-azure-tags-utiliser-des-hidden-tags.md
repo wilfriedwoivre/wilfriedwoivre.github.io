@@ -3,7 +3,7 @@ layout: post
 title: Azure Tags - Utiliser des hidden tags
 date: 2025-05-03
 categories: [ "Azure" ]
-githubcommentIdtoreplace: 
+comments_id: 202 
 ---
 
 Les tags sur Azure sont très utiles d'un point de vue gouvernance. Ils vous permettent d'organiser vos ressources que ce soit cross resource groups ou cross souscriptions. Ou même pour filtrer simplement au sein d'un resource group un peu *fourre tout*.
