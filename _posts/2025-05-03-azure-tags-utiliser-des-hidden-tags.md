@@ -17,7 +17,7 @@ Vous avez donc trois choix principaux pour bien nommer vos ressources :
 
 Maintenant dans la vie d'une entreprise, il est souvent amené à changer le nom des équipes, des projets, des applications, etc. Et on se retrouve donc avec des ressources avec des noms obsolètes.
 
-Il est possible d'ajouter un tags qui s'appelle `hidden-title` qui permet de rajouter un nom supplémentaire à votre resource comme ci dessous: 
+Il est possible d'ajouter un tags qui s'appelle _hidden-title_ qui permet de rajouter un nom supplémentaire à votre resource comme ci dessous: 
 
 ![alt text]({{ site.url }}/images/2025/05/03/azure-tags-utiliser-des-hidden-tags-img0.png)
 
