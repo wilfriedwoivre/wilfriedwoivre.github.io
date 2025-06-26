@@ -3,7 +3,7 @@ layout: post
 title: Azure Copilot - Restreindre l'accès à vos utilisateurs
 date: 2025-06-26
 categories: [ "Azure", "Copilot" ]
-githubcommentIdtoreplace: 
+comments_id: 203 
 ---
 
 
