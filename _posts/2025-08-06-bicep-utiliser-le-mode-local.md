@@ -7,7 +7,7 @@ comments_id: 204
 ---
 
 
-Il peut être frustant de devoir toujours lancer un déploiement Bicep vers Azure lorsque vous êtes en cours d'écriture de votre script. Et bien entendu vous ne voulez pas lancer votre déploiement après avoir construit à l'aveugle votre Landing Zone après 1 semaine de travail acharné. (ou 2h si vous utilisez AVM.)
+Il peut être frustant de devoir toujours lancer un déploiement Bicep vers Azure lorsque vous êtes en cours d'écriture de votre script. Et bien entendu vous ne voulez pas lancer votre déploiement après avoir construit à l'aveugle votre Landing Zone après 1 semBicaine de travail acharné. (ou 2h si vous utilisez AVM.)
 
 Heureusement, Bicep propose un mode "local" qui vous permet de valider votre code Bicep sans avoir à déployer dans Azure. Cela peut être particulièrement utile pour vérifier la syntaxe, les types de ressources, et les dépendances entre les ressources.
 
