@@ -3,7 +3,7 @@ layout: post
 title: Bicep - Utiliser le mode Local
 date: 2025-08-06
 categories: [ "Azure", "Bicep" ]
-githubcommentIdtoreplace: 
+comments_id: 204 
 ---
 
 
