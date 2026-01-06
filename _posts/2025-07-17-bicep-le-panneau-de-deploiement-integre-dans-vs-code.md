@@ -3,7 +3,7 @@ layout: post
 title: Bicep - Le panneau de déploiement intégré dans VS Code
 date: 2025-07-17
 categories: [ "Azure", "Bicep" ]
-githubcommentIdtoreplace: 
+comments_id: 205 
 ---
 
 Bon c'est sûrement un peu tardif comme article, je n'ai pas vérifié.
