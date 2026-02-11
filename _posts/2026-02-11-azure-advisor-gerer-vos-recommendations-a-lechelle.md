@@ -3,7 +3,7 @@ layout: post
 title: Azure Advisor - Gérer vos recommendations à l'échelle
 date: 2026-02-11
 categories: [ "Azure", "Azure Advisor" ]
-githubcommentIdtoreplace: 
+comments_id: 206 
 ---
 
 Azure Advisor est un service Azure qui vous fournit pleins de recommandations sur vos environnements que ce soit en terme de sécurité, de coûts, ou de résilience. Cet outil est très bien, mais je sais qu'il peut être assez fastidieux de devoir le gérer et de prendre en compte toutes les recommandations qui sont proposées à l'échelle d'une entreprise.
