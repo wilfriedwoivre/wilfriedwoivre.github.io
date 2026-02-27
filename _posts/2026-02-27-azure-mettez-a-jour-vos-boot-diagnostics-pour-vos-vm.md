@@ -3,7 +3,7 @@ layout: post
 title: Azure - Mettez à jour vos boot diagnostics pour vos VM
 date: 2025-09-27
 categories: [ "Azure", "Virtual Machines" ]
-githubcommentIdtoreplace: 
+comments_id: 207 
 ---
 
 Comme vous le savez tous les logs c'est important, il y en a un qu'on sous estime pas mal c'est le boot diagnostics, au moins pour savoir si la VM a bien démarré.
