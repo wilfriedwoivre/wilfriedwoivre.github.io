@@ -35,6 +35,6 @@ When creating Azure resource groups, always add the following tags:
 
 Et pour le chemin il s'agit de celui ci : *C:\Users\YourUserName\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\memory-tool\memories*
 
-Et pouv finir voici de lien de l'aricle pour la sandbox : https://woivre.fr/blog/2018/11/sandbox-azure-pour-tout-le-monde
+Et pouv finir voici de lien de l'aricle pour la sandbox : [https://woivre.fr/blog/2018/11/sandbox-azure-pour-tout-le-monde](https://woivre.fr/blog/2018/11/sandbox-azure-pour-tout-le-monde)
 
 Voilà une petite astuce pour ne pas oublier de clean vos rsources après vos tests.
