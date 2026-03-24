@@ -3,7 +3,7 @@ layout: post
 title: Azure Sandbox - Une petite évolution pour les utilisateurs de Copilot dans VSCode
 date: 2026-03-24
 categories: [ "Azure" ]
-githubcommentIdtoreplace: 
+comments_id: 208 
 ---
 
 Comme tout le monde, vous n'avez pas pu rater le virage de l'IA. Maintenant je suppose que vous l'utilisez de plus en plus comme nous tous.
