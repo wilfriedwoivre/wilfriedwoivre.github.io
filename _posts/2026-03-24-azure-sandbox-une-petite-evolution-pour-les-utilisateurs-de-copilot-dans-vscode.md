@@ -19,16 +19,21 @@ Il y a une manière très simple de rajouter cela, il suffit de demander à Copi
 Voici un exemple de fichier que vous pouvez ajouter dans votre répertoire utilisateur pour que Copilot puisse ajouter les tags automatiquement à chaque fois que vous créer un resource group.
 
 ```markdown
-{
-  "resourceGroupTags": {
-    "Environment": "Test",
-    "Owner": "YourName",
-    "ExpirationDate": "2026-04-30"
-  }
-}
+# Azure Resource Group Tagging Convention
+
+## Mandatory Tags for Resource Groups
+When creating Azure resource groups, always add the following tags:
+
+- **AutoDelete**: `true`
+- **ExpirationDate**: Current date in format `YYYY-MM-DD` (e.g., 2026-03-05)
+
+## Implementation
+- Apply these tags when using Bicep, Terraform, ARM templates, or Azure CLI
+- Use `resourceGroup()` function in Bicep or equivalent in other IaC tools
+- Set tags at resource group creation time, not as an afterthought
 ```
 
-Et pour le chemin il s'agit de celui ci : *C:\Users\YourUserName\AppData\Roaming\Code\User\globalStorage\github-copilot-chat\memory-tool\memories*
+Et pour le chemin il s'agit de celui ci : *C:\Users\YourUserName\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\memory-tool\memories*
 
 Et pouv finir voici de lien de l'aricle pour la sandbox : https://woivre.fr/blog/2018/11/sandbox-azure-pour-tout-le-monde
 
