@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title: Azure - Mettez à jour vos boot diagnostics pour vos VM
-date: 2025-09-27
+date: 2026-01-27
 categories: [ "Azure", "Virtual Machines" ]
 comments_id: 207 
 ---
