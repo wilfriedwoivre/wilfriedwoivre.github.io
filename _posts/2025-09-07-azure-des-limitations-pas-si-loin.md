@@ -3,7 +3,7 @@ layout: post
 title: Azure - Des limitations pas si loin
 date: 2025-09-07
 categories: [ "Azure" ]
-githubcommentIdtoreplace: 
+comments_id: 209 
 ---
 
 Le Cloud est infini, c'est ce que l'on entend souvent. Mais est-ce vraiment le cas ? En réalité, il existe des limitations dans le Cloud, et Azure ne fait pas exception. Ces limitations peuvent être liées à la capacité, à la performance, à la sécurité ou à d'autres aspects.
