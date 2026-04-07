@@ -3,7 +3,7 @@ layout: post
 title: Azure Network - Agrandir vos subnets, c'est possible !
 date: 2025-10-17
 categories: [ "Azure", "Network" ]
-githubcommentIdtoreplace: 
+comments_id: 210 
 ---
 
 Vous vous êtes déjà retrouvé dans le cas où vous avez été un peu trop radin (ou optimiste) sur la gestion de vos IPs, et que vous n'avez attribuez qu'un minuscule range /28 à une application sans vous doutez que demain elle ellait exploser et devoir demander un range plus grand pour fonctionner. 
