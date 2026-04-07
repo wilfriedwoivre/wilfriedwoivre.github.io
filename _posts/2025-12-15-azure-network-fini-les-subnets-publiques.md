@@ -3,7 +3,7 @@ layout: post
 title: Azure Network - Fini les subnets publiques
 date: 2025-12-15
 categories: [ "Azure", "Network" ]
-githubcommentIdtoreplace: 
+comments_id: 211 
 ---
 
 Fin mars 2026, Microsoft a annoncé une mise à jour importante concernant les subnets publics dans Azure. Désormais, les subnets seront privés par défaut, ce qui signifie que les ressources déployées dans ces subnets n'auront pas d'accès direct à Internet. Cette décision a été prise pour renforcer la sécurité des environnements Azure et encourager les bonnes pratiques en matière de réseau.
