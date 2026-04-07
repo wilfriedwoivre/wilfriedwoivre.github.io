@@ -3,7 +3,7 @@ layout: post
 title: Azure VM - La permission RunCommand
 date: 2025-11-04
 categories: [ "Azure", "Virtual Machines" ]
-githubcommentIdtoreplace: 
+comments_id: 212 
 ---
 
 Juste un rapide article pour vous parler de la permission RunCommand sur les machines virtuelles.
