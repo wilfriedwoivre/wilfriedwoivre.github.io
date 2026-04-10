@@ -3,7 +3,7 @@ layout: post
 title: Azure - Trouver la zone qui correspond à votre souscription
 date: 2026-04-10
 categories: [ "Azure" ]
-githubcommentIdtoreplace: 
+comments_id: 213 
 ---
 
 Il est parfois nécessaire de trouver la zone physique qui correspond à la zone logique attachée à votre souscription Azure.
