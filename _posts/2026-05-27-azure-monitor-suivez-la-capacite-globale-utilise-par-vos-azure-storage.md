@@ -3,7 +3,7 @@ layout: post
 title: Azure Monitor - Suivez la capacité globale utilisé par vos Azure Storage
 date: 2026-05-27
 categories: [ "Azure", "Monitoring" ]
-githubcommentIdtoreplace: 
+comments_id: 215 
 ---
 
 Dans une idée de gouvernance, il peut être utile de faire un inventaire de tout ce que vous utilisez dans le Cloud public.
