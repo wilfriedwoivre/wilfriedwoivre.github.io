@@ -3,7 +3,7 @@ layout: post
 title: Azure KeyVault - Comment restaurer vos keyvaults lorsque vous avez des Azure Policies
 date: 2026-06-24
 categories: [ "Azure", "KeyVault", "Policy" ]
-githubcommentIdtoreplace: 
+comments_id: 216 
 ---
 
 Pour des enjeux de gouvernance, il est possible que vous ayez mis en place des Azure Policies sur vos KeyVaults. 
