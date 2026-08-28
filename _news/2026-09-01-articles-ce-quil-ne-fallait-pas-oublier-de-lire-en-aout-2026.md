@@ -1,7 +1,7 @@
 ---
 layout: news
 title: Articles - Ce qu'il ne fallait pas oublier de lire en août 2026
-date: 2026-09-01
+date: 2026-08-28
 ---
 
 Voici un résumé des différents articles que j'ai partagé sur les réseaux sociaux en août 2026.
