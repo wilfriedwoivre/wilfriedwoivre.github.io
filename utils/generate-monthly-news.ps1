@@ -25,10 +25,15 @@ $currentMonth = Get-Date($startDate) -UFormat %m
 $month = (Get-Culture -Name "fr-FR").DateTimeFormat.GetMonthName($currentMonth)
 $title = "Articles - Ce qu'il ne fallait pas oublier de lire en $month $((Get-Date($startDate)).ToString('yyyy'))"
 
+$publishDate = "$((Get-Date($endDate)).AddDays(1).ToString('yyyy-MM-dd'))"
+if ($monthTosubstract -eq 0) {
+    $publishDate = "$(Get-Date().ToString('yyyy-MM-dd'))"
+}
+
 $newPost = "---
 layout: news
 title: $title
-date: $((Get-Date($endDate)).AddDays(1).ToString('yyyy-MM-dd'))
+date: $publishDate
 ---
 
 Voici un résumé des différents articles que j'ai partagé sur les réseaux sociaux en $month $((Get-Date($startDate)).ToString('yyyy')).
