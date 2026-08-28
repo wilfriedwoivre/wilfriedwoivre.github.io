@@ -16,6 +16,8 @@ jobs:
 
       - name: Generate news post for the current month
         shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: ./utils/generate-monthly-news.ps1 -monthTosubstract 0
 
       - name: Commit and push
