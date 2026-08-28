@@ -75,8 +75,8 @@ $newPost = $newPost -replace 'ΓÇô', '-'
 $newPost = $newPost -replace 'ΓÇö', "-"
 
 
-$filePath = "$PSScriptRoot\..\_news\$fileName"
+$filePath = Join-Path $PSScriptRoot ".." "_news" $fileName
 
-New-Item $filePath
+New-Item $filePath -Force | Out-Null
 
 $newPost | Out-File $filePath -Encoding utf8
