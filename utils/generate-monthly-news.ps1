@@ -27,7 +27,7 @@ $title = "Articles - Ce qu'il ne fallait pas oublier de lire en $month $((Get-Da
 
 $publishDate = "$((Get-Date($endDate)).AddDays(1).ToString('yyyy-MM-dd'))"
 if ($monthTosubstract -eq 0) {
-    $publishDate = "$(Get-Date().ToString('yyyy-MM-dd'))"
+    $publishDate = "$((Get-Date).ToString('yyyy-MM-dd'))"
 }
 
 $newPost = "---
