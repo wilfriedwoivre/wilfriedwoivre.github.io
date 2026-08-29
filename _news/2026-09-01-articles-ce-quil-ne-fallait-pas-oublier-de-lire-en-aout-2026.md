@@ -1,7 +1,7 @@
 ---
 layout: news
 title: Articles - Ce qu'il ne fallait pas oublier de lire en août 2026
-date: 2026-08-28
+date: 2026-08-29
 ---
 
 Voici un résumé des différents articles que j'ai partagé sur les réseaux sociaux en août 2026.
@@ -9,8 +9,8 @@ Voici un résumé des différents articles que j'ai partagé sur les réseaux so
 C'est un peu en vrac, mais je vais voir pour essayer de mettre des catégories pour les prochains mois.
 
 - [[In preview] Public Preview: Azure SQL updates for late-July](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=568139)
-- [[In preview] Public Preview: Route-Maps for Azure Route Server](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=568631)
 - [[Launched] Generally Available: Single-click purchase for public SaaS offers](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=568591)
+- [[In preview] Public Preview: Route-Maps for Azure Route Server](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=568631)
 - [Gateway API v1.6: TCPRoute and UDPRoute Graduate to Standard](https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/)
 - [[Launched] Generally Available: Trusted Launch as Default](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=568600)
 - [[Launched] Generally Available: Immutability to the most recent seven days of backups on Azure SQL Database and Azure SQL Managed Instance](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=568339)
@@ -41,4 +41,6 @@ C'est un peu en vrac, mais je vais voir pour essayer de mettre des catégories p
 - [Announcing: Azure Copilot introduces direct access to agents](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=569685)
 - [Azure Network Security Perimeter vs Private Endpoints - Which One Should You Use?](https://woivre.com/blog/2026/08/azure-network-security-perimeter-vs-private-endpoints-which-one-should-you-use)
 - [[Launched] Generally Available: Custom block response code and body for Application Gateway WAF](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=569504)
+- [[Launched] Generally Available: Connect to AKS clusters using Azure Bastion](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=570030)
+- [[Launched] Generally Available: Azure SRE Agent VNet Integration](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=569695)
 
