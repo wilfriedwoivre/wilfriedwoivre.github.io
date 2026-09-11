@@ -3,7 +3,7 @@ layout: post
 title: Azure Network Security Perimeter - Pourquoi c'est l'avenir de la sécurité réseau
 date: 2026-09-10
 categories: [Azure, Network Security Perimeter]
-githubcommentIdtoreplace: 
+comments_id: 218 
 ---
 
 Azure Network Security Perimeter, ou NSP, est l'un des ajouts les plus importants au modèle de sécurité réseau d'Azure pour les organisations qui souhaitent mieux contrôler l'accès à leurs ressources protégées.

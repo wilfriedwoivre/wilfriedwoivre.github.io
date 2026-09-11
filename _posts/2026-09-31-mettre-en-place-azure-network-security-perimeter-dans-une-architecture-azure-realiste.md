@@ -3,7 +3,7 @@ layout: post
 title: Mettre en place Azure Network Security Perimeter dans une architecture Azure réaliste
 date: 2026-09-31
 categories: [Azure, Network Security Perimeter]
-githubcommentIdtoreplace: 
+comments_id: 221 
 ---
 
 Lorsque vous atteignez l'étape de mise en œuvre, Azure Network Security Perimeter devient beaucoup plus concret. Sa véritable valeur apparaît lorsque vous l'appliquez à une architecture qui comprend déjà des services partagés, des charges de travail et plusieurs équipes.
