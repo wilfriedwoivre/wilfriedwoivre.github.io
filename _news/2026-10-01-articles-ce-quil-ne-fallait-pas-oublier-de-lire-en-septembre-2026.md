@@ -1,16 +1,22 @@
 ---
 layout: news
 title: Articles - Ce qu'il ne fallait pas oublier de lire en septembre 2026
-date: 2026-09-14
+date: 2026-09-15
 ---
 
 Voici un résumé des différents articles que j'ai partagé sur les réseaux sociaux en septembre 2026.
 
 C'est un peu en vrac, mais je vais voir pour essayer de mettre des catégories pour les prochains mois.
 
+- [Implementing Azure Network Security Perimeter in a Real-World Azure Architecture](https://woivre.com/blog/2026/08/implementing-azure-network-security-perimeter-in-a-real-world-azure-architecture)
+- [[In preview] Public Preview: Per-disk resiliency for Azure VMs](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=569711)
+- [[In preview] Public Preview: Azure Multicloud Interconnect](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=570364)
+- [[Launched] Generally Available: Artifact Streaming on AKS](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=570095)
+- [[Launched] Generally Available: Windows Server 2025 on AKS](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=570090)
+- [[Launched] Generally Available: Azure Firewall auto-learn SNAT routes](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=570474)
 - [[Launched] Generally Available: Azure Copilot Observability Agent supports Basic and Auxiliary table plans](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=570250)
-- [[Launched] Generally Available: Azure Monitor Auxiliary Logs Plan support for Azure tables and plan switching](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=569904)
 - [[Launched] Generally Available: Azure Monitor Auxiliary Logs Plan in Azure Government and China regions](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=569899)
+- [[Launched] Generally Available: Azure Monitor Auxiliary Logs Plan support for Azure tables and plan switching](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=569904)
 - [Kubernetes v1.37: Scale Workloads to Zero with HorizontalPodAutoscaler](https://kubernetes.io/blog/2026/09/02/kubernetes-v1-37-hpa-scale-to-zero-beta/)
 - [[In preview] Public Preview: Azure Front Door profile and route level WAF policies](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=569804)
 - [[In preview] Public Preview: Reader Endpoint for Azure Database for MySQL](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=569653)
