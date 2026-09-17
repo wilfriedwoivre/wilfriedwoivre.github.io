@@ -1,7 +1,7 @@
 ---
 layout: news
 title: Articles - Ce qu'il ne fallait pas oublier de lire en septembre 2026
-date: 2026-09-16
+date: 2026-09-17
 ---
 
 Voici un résumé des différents articles que j'ai partagé sur les réseaux sociaux en septembre 2026.
@@ -26,4 +26,11 @@ C'est un peu en vrac, mais je vais voir pour essayer de mettre des catégories p
 - [[Launched] Generally Available: Azure Ephemeral OS Disk with full caching for VM/VMSS](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=570551)
 - [[Launched] Generally Available: TLS/SSL certificate and end-to-end TLS encryption support for Azure Functions Flex Consumption](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=570940)
 - [[Launched] Generally Available: Azure Copilot Troubleshooting Agent](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=570980)
+- [Azure Front Door - mTLS support](https://woivre.com/blog/2026/09/azure-front-door-mtls-support)
+- [Azure Network Security Perimeter - Pourquoi c’est l’avenir de la sécurité réseau](https://woivre.fr/blog/2026/09/azure-network-security-perimeter-pourquoi-cest-lavenir-de-la-securite-reseau)
+- [[In preview] Public Preview: Agentless migration of on-premises SMB file shares to Azure Files (SMB)](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=570910)
+- [Kubernetes Changed Block Tracking API - Beta Differences](https://kubernetes.io/blog/2026/09/14/csi-changed-block-tracking-beta/)
+- [[In preview] Public Preview: HTTP/3 over QUIC support in Azure Application Gateway](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=571123)
+- [Announcing: New Windows App client-side endpoints for Azure Virtual Desktop](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=571360)
+- [Kubernetes v1.37: Pod-Level Resource Managers graduated to Beta](https://kubernetes.io/blog/2026/09/15/kubernetes-v1-37-pod-level-resource-managers-beta/)
 
