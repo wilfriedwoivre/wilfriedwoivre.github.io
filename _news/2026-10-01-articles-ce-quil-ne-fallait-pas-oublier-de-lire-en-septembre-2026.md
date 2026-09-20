@@ -1,7 +1,7 @@
 ---
 layout: news
 title: Articles - Ce qu'il ne fallait pas oublier de lire en septembre 2026
-date: 2026-09-19
+date: 2026-09-20
 ---
 
 Voici un résumé des différents articles que j'ai partagé sur les réseaux sociaux en septembre 2026.
