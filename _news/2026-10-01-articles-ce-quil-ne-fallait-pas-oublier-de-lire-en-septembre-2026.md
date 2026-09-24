@@ -1,7 +1,7 @@
 ---
 layout: news
 title: Articles - Ce qu'il ne fallait pas oublier de lire en septembre 2026
-date: 2026-09-23
+date: 2026-09-24
 ---
 
 Voici un résumé des différents articles que j'ai partagé sur les réseaux sociaux en septembre 2026.
@@ -35,4 +35,10 @@ C'est un peu en vrac, mais je vais voir pour essayer de mettre des catégories p
 - [Kubernetes v1.37: Pod-Level Resource Managers graduated to Beta](https://kubernetes.io/blog/2026/09/15/kubernetes-v1-37-pod-level-resource-managers-beta/)
 - [Comment protéger les ressources PaaS avec Azure Network Security Perimeter](https://woivre.fr/blog/2026/09/comment-proteger-les-ressources-paas-avec-azure-network-security-perimeter)
 - [[Launched] Generally Available: High-scale mesh in Azure Virtual Network Manager](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=571572)
+- [[In preview] Public Preview: Network egress controls for hosted agents in Microsoft Foundry](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=571821)
+- [[Launched] Generally Available: New and improved troubleshooting guides for Azure Database for PostgreSQL](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=571042)
+- [[Launched] Generally Available: Logical replication slot sync status metric for Azure PostgreSQL Flexible Server](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=568414)
+- [[In preview] Public Preview: Introducing a Guided Copilot Experience for Building Azure Apps in VS Code](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=572214)
+- [[Launched] Generally Available: Azure Functions support for PowerShell 7.6](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=572219)
+- [[In preview] Public Preview: Flex Nodes for AKS](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=571919)
 
