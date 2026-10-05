@@ -1,7 +1,7 @@
 ---
 layout: news
 title: Articles - Ce qu'il ne fallait pas oublier de lire en octobre 2026
-date: 2026-10-04
+date: 2026-10-05
 ---
 
 Voici un résumé des différents articles que j'ai partagé sur les réseaux sociaux en octobre 2026.
