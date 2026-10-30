@@ -1,7 +1,7 @@
 ---
 layout: news
 title: Articles - Ce qu'il ne fallait pas oublier de lire en octobre 2026
-date: 2026-10-29
+date: 2026-10-30
 ---
 
 Voici un résumé des différents articles que j'ai partagé sur les réseaux sociaux en octobre 2026.
@@ -14,6 +14,7 @@ C'est un peu en vrac, mais je vais voir pour essayer de mettre des catégories p
 - [[In preview] Public Preview:  Major version upgrades (MVU) for Azure Database for PostgreSQL elastic clusters](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=571504)
 - [Scaling Kubernetes Workloads with Node Swap](https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/)
 - [[In preview] Public Preview: Azure HorizonDB expands to additional regions](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=572940)
+- [Announcing: Table discovery in OneLake Catalog search](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=573875)
 - [[In preview] Public Preview: Azure Backup for PostgreSQL flexible server and elastic cluster (v2)](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=573425)
 - [[In preview] Public Preview: IPv6 Support for Application Gateway WAF](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=573861)
 - [[Launched] Generally Available: Anyscale on Azure](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=573744)
@@ -29,6 +30,7 @@ C'est un peu en vrac, mais je vais voir pour essayer de mettre des catégories p
 - [[In preview] Public Preview: Azure Files cross-region data copy and synchronization with Azure Storage Mover](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=576542)
 - [[Launched] Generally Availabile: Automatic zone balance for Virtual Machine Scale Sets](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=576334)
 - [[Launched] Generally Available: Standard service endpoint](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=571025)
+- [[Launched] Generally Available: External key management for Azure Key Vault Managed HSM](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=574296)
 - [[In preview] Public Preview: Azure Databricks Private network gateway](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=576556)
 - [[Launched] Generally Available: Metrics usage insights for Azure Monitor workspace](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=577165)
 - [[Launched] Generally Available: Azure DNS enables DNS-based load balancing through Traffic Manager linked records](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=573917)
@@ -38,6 +40,7 @@ C'est un peu en vrac, mais je vais voir pour essayer de mettre des catégories p
 - [[Launched] Generally Available: Advanced platform metrics for Azure Monitor](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=575329)
 - [[Launched] Generally Available: Azure Cosmos DB Safe Key Rotation](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=576716)
 - [Azure Service Endpoint - Standard vs Basic](https://woivre.com/blog/2026/10/azure-service-endpoint-standard-vs-basic)
+- [[Launched] Generally Available: ABFS Vectored Read for Azure Data Lake Storage](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=577618)
 - [[Launched] Generally Available: Item Level Recovery for Azure VMs with Premium SSDv2 and Ultra Disks in Azure Backup](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=577963)
 - [[Launched] Generally Available: Network Watcher VNet flow logs filtering](https://azure.microsoft.com/updates?WT.mc_id=AZ-MVP-4039694&id=577782)
 - [Announcing the Workload Conformance Working Group](https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/)
