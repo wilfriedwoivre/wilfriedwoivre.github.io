@@ -1,7 +1,7 @@
 ---
 layout: news
 title: Articles - Ce qu'il ne fallait pas oublier de lire en novembre 2026
-date: 2026-11-10
+date: 2026-11-11
 ---
 
 Voici un résumé des différents articles que j'ai partagé sur les réseaux sociaux en novembre 2026.
