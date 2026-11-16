@@ -3,7 +3,7 @@ layout: post
 title: Azure Service Endpoint - Standard vs Basic
 date: 2026-11-16
 categories: [ "Azure", "Network", "Network Security Perimeter" ]
-githubcommentIdtoreplace: 
+comments_id: 222 
 ---
 
 Les service endpoints sont la plus vieille astuce du manuel de la sécurité réseau Azure. Ils sont gratuits, simples, et cela fait des années qu'ils se heurtent discrètement à un mur dès que l'échelle augmente. Le 15 octobre 2026, Microsoft a rendu le service endpoint Standard généralement disponible, et la question intéressante est de savoir s'il vaut la peine de payer pour quelque chose qui était gratuit jusque-là.
